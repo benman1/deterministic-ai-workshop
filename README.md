@@ -32,7 +32,7 @@ Each notebook writes its numbers to `data/results/<notebook>.json`. The workshop
 ## What is real, what is recorded
 
 - **Meridian messages** (`data/meridian_triage.jsonl`) were written by Claude Haiku from route definitions. Labels are the generator's intent. **No person has verified the test split**, so every accuracy here is a measurement on synthetic text.
-- **Slow-tier answers** (`data/llm/test_haiku_answers.jsonl`) are recorded Claude Haiku replies to the 200 test messages, produced once from the route descriptions without labels. Notebook 05 replays them by message id; it makes no API call and measures no LLM latency or price.
+- **Slow-tier answers** (`data/llm/test_haiku_answers.jsonl`) are recorded Claude Haiku replies to the 200 test messages, produced once from the route descriptions without labels. They agree with the generator's labels on 190 of 200; the ten disagreements are two boundary scenarios (a message that asks to change the date before cancelling; a complaint that also asks for the price difference back), where either label can be defended. Notebook 05 replays them by message id; it makes no API call and measures no LLM latency or price.
 - **Hard negatives** (`data/llm/hard_negatives.jsonl`) are 80 recorded Haiku messages. Their labels are unchecked.
 - **Latency numbers** were taken on one Intel Core i7-7567U laptop (4 logical cores) that was running other work; the load average is stored beside each result. Re-run on your machine before quoting them.
 
