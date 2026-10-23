@@ -1,0 +1,33 @@
+{
+  "n": 200,
+  "encoder": 183,
+  "llm": 17,
+  "person": 0,
+  "cascade_acc": 0.975,
+  "cascade_wilson": [
+    0.9428208558483829,
+    0.9892754385292123
+  ],
+  "cascade_cluster": [
+    0.935,
+    1.0
+  ],
+  "llm_only_acc": 0.95,
+  "llm_only_wilson": [
+    0.9104209437021562,
+    0.9726176509713551
+  ],
+  "llm_only_cluster": [
+    0.875,
+    1.0
+  ],
+  "llm_calls_per_1000_cascade": 85.0,
+  "mcnemar": {
+    "b": 8,
+    "c": 3,
+    "p": 0.2265625
+  },
+  "ms_per_message_graph": 81.99509335448965,
+  "hardware": "Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz, 4 logical cores, Darwin 22.6.0",
+  "decision_logic_version": "gate-v1:alpha=0.02"
+}

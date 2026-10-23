@@ -1,0 +1,130 @@
+{
+  "fp32_acc": 0.97,
+  "int8_acc": 0.95,
+  "diff": -0.02,
+  "diff_cluster_ci": [
+    -0.045,
+    0.0
+  ],
+  "agreement": 0.98,
+  "mcnemar": [
+    0,
+    4
+  ],
+  "throughput_fp32": 44.39289276240781,
+  "throughput_int8": 55.693533230681396,
+  "latency_fp32": {
+    "n": 100,
+    "median_ms": 43.84634108282626,
+    "p95_ms": 66.11365152057257
+  },
+  "latency_int8": {
+    "n": 100,
+    "median_ms": 45.009531546384096,
+    "p95_ms": 89.4013763172552
+  },
+  "gate_fp32": [
+    0.915,
+    0.085,
+    0.0
+  ],
+  "gate_int8": [
+    0.89,
+    0.11,
+    0.0
+  ],
+  "reproducible_fraction": 1.0,
+  "candidates": {
+    "fp32 build": {
+      "acc": 0.975,
+      "wilson_lo": 0.9428208558483829,
+      "escalated": 0.085,
+      "person": 0.0,
+      "calls_per_1000": 85.0
+    },
+    "int8 build": {
+      "acc": 0.975,
+      "wilson_lo": 0.9428208558483829,
+      "escalated": 0.11,
+      "person": 0.0,
+      "calls_per_1000": 110.0
+    }
+  },
+  "gate_fp32_build": {
+    "passed": true,
+    "checks": [
+      [
+        "cascade accuracy, Wilson lower bound >=",
+        0.9428208558483829,
+        true
+      ],
+      [
+        "share of messages escalated to the LLM <=",
+        0.085,
+        true
+      ],
+      [
+        "share sent to a person <=",
+        0.0,
+        true
+      ],
+      [
+        "slow-tier calls per 1,000 messages <=",
+        85.0,
+        true
+      ],
+      [
+        "same input twice gives the same action and key (fraction) ==",
+        1.0,
+        true
+      ]
+    ]
+  },
+  "gate_int8_build": {
+    "passed": false,
+    "checks": [
+      [
+        "cascade accuracy, Wilson lower bound >=",
+        0.9428208558483829,
+        true
+      ],
+      [
+        "share of messages escalated to the LLM <=",
+        0.11,
+        true
+      ],
+      [
+        "share sent to a person <=",
+        0.0,
+        true
+      ],
+      [
+        "slow-tier calls per 1,000 messages <=",
+        110.0,
+        true
+      ],
+      [
+        "same input twice gives the same action and key (fraction) ==",
+        1.0,
+        true
+      ],
+      [
+        "int8 minus fp32 accuracy, cluster-interval lower bound >=",
+        -0.045,
+        false
+      ],
+      [
+        "int8 prediction agreement with fp32 >=",
+        0.98,
+        true
+      ]
+    ]
+  },
+  "hardware": "Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz, 4 logical cores, Darwin 22.6.0",
+  "load": [
+    8.48681640625,
+    10.7255859375,
+    28.4296875
+  ],
+  "torch_threads": 4
+}
