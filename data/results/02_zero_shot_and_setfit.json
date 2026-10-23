@@ -1,0 +1,104 @@
+{
+  "zero_shot_raw": {
+    "acc": 0.59,
+    "k": 118,
+    "n": 200,
+    "wilson": [
+      0.5207633107255152,
+      0.655844408209187
+    ],
+    "cluster_ci": [
+      0.45,
+      0.72
+    ]
+  },
+  "zero_shot": {
+    "acc": 0.59,
+    "k": 118,
+    "n": 200,
+    "wilson": [
+      0.5207633107255152,
+      0.655844408209187
+    ],
+    "cluster_ci": [
+      0.45,
+      0.72
+    ]
+  },
+  "zero_shot_temperature": 0.0420253164556962,
+  "zero_shot_top_confusions": [
+    [
+      16,
+      "out_of_scope",
+      "visa_entry_question"
+    ],
+    [
+      15,
+      "refund_claim",
+      "cancellation_request"
+    ],
+    [
+      12,
+      "service_complaint",
+      "cancellation_request"
+    ],
+    [
+      7,
+      "service_complaint",
+      "visa_entry_question"
+    ],
+    [
+      5,
+      "out_of_scope",
+      "rebooking_request"
+    ]
+  ],
+  "head_learning_curve": {
+    "8": [
+      0.86,
+      0.92,
+      0.935,
+      0.88,
+      0.905
+    ],
+    "16": [
+      0.96,
+      0.97,
+      0.96,
+      0.95,
+      0.945
+    ],
+    "all": [
+      0.975
+    ]
+  },
+  "prototype_8": [
+    0.86,
+    0.89,
+    0.9,
+    0.845,
+    0.87
+  ],
+  "setfit_8": [
+    0.905,
+    0.94,
+    0.95,
+    0.905,
+    0.895
+  ],
+  "setfit_train_seconds": [
+    724.1767992386594,
+    307.30375518416986,
+    377.56108280597255,
+    913.1689177639782,
+    645.5540431821719
+  ],
+  "hardware": "Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz, 4 logical cores, Darwin 22.6.0",
+  "setfit_minus_lr_head": [
+    0.04500000000000004,
+    0.019999999999999907,
+    0.014999999999999902,
+    0.025000000000000022,
+    -0.010000000000000009
+  ]
+}
