@@ -1,0 +1,17 @@
+# Intel-Mac-compatible pins (torch 2.2.2 is the last macOS x86_64 wheel); same stack as the RAG workshop
+numpy==1.26.4
+torch==2.2.2
+transformers==4.57.6
+sentence-transformers==3.4.1
+setfit
+scikit-learn==1.8.0
+scipy==1.17.1
+pandas
+matplotlib
+langgraph==1.2.10
+ipykernel
+nbclient
+nbformat
+jupytext
+pyarrow==17.0.0
+datasets==3.6.0
