@@ -27,12 +27,12 @@
     "c": 3,
     "p": 0.2265625
   },
-  "graph_ms_median": 49.453900661319494,
-  "graph_ms_p95": 906.024307245388,
+  "graph_ms_median": 42.27425856515765,
+  "graph_ms_p95": 64.57675916608422,
   "load": [
-    15.86328125,
-    47.53857421875,
-    40.71240234375
+    13.3828125,
+    16.82763671875,
+    22.4697265625
   ],
   "macro_f1_cascade": 0.9749297792566058,
   "macro_f1_llm_only": 0.9494949494949494,
@@ -43,6 +43,27 @@
   "tokens_out_per_1000": {
     "llm_only": 5000,
     "cascade": 425.0
+  },
+  "local_slow_tier": {
+    "model": "Qwen/Qwen3-1.7B",
+    "n": 40,
+    "n_escalated": 17,
+    "median_ms": 9346.440850291401,
+    "p95_ms": 17778.700884920538,
+    "load_average": [
+      13.3828125,
+      16.82763671875,
+      22.4697265625
+    ],
+    "acc_escalated_local": 0.6470588235294118,
+    "acc_escalated_haiku": 0.8823529411764706,
+    "acc_other_local": 0.6521739130434783,
+    "prompt_tokens": 233,
+    "load_seconds": 35.933933480177075,
+    "letter_menu_first_attempt": {
+      "acc_escalated": 0.176,
+      "acc_other": 0.217
+    }
   },
   "hardware": "Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz, 4 logical cores, Darwin 22.6.0",
   "decision_logic_version": "gate-v1:alpha=0.02"
