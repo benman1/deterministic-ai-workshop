@@ -40,3 +40,7 @@ Each notebook writes its numbers to `data/results/<notebook>.json`. The workshop
 
 `meridian.py` holds the non-teaching helpers (loader, Wilson and cluster-bootstrap intervals, embeddings cache, timing). Everything the workshop teaches lives in notebook cells.
 `data/cache/` (embeddings) is regenerated on first run and is not committed.
+
+## License
+
+MIT, see `LICENSE`. The model weights the notebooks download carry their own licenses (LFM2.5-Encoder-230M uses the LFM Open License v1.0).
