@@ -13,6 +13,15 @@ uv venv --python 3.11 .venv && uv pip install --python .venv/bin/python -r requi
 .venv/bin/python -m pytest -q test_meridian.py        # 4 tests: splits, Wilson, cluster bootstrap
 ```
 
+On Linux, add the PyTorch CPU index, or `uv` installs the CUDA build of torch and about 2.5 GB of NVIDIA packages that a CPU run never uses:
+
+```bash
+uv pip install --python .venv/bin/python --index-strategy unsafe-best-match \
+  --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
+```
+
+Notebook 01's long-context cell needs about 4 GB of free memory at 8,192 tokens; on a machine with less, run `LONG_CONTEXT_MAX=1024` before starting Jupyter (a 7.7 GB shared server lost the kernel to the out-of-memory killer there).
+
 The pins in `requirements.txt` are the last versions with wheels for an Intel Mac (torch 2.2.2, numpy 1.26, pyarrow 17). On Apple silicon or Linux, newer versions should work but are untested here.
 Run each notebook from this directory, top to bottom. The first run downloads about 1.3 GB of models (bge-small, ModernBERT-base, LFM2.5-Encoder-230M).
 
