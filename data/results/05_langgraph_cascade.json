@@ -27,7 +27,23 @@
     "c": 3,
     "p": 0.2265625
   },
-  "ms_per_message_graph": 81.99509335448965,
+  "graph_ms_median": 33.19627302698791,
+  "graph_ms_p95": 53.43574120197445,
+  "load": [
+    6.3310546875,
+    5.951171875,
+    8.33642578125
+  ],
+  "macro_f1_cascade": 0.9749297792566058,
+  "macro_f1_llm_only": 0.9494949494949494,
+  "tokens_in_per_1000": {
+    "llm_only": 95160.0,
+    "cascade": 8185.000000000001
+  },
+  "tokens_out_per_1000": {
+    "llm_only": 5000,
+    "cascade": 425.0
+  },
   "hardware": "Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz, 4 logical cores, Darwin 22.6.0",
   "decision_logic_version": "gate-v1:alpha=0.02"
 }
