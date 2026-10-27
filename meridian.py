@@ -83,9 +83,12 @@ def hardware() -> str:
 
     cpu = platform.processor() or platform.machine()
     try:
-        cpu = subprocess.check_output(
-            ["sysctl", "-n", "machdep.cpu.brand_string"], text=True
-        ).strip()
+        if platform.system() == "Darwin":
+            cpu = subprocess.check_output(
+                ["sysctl", "-n", "machdep.cpu.brand_string"], text=True, stderr=subprocess.DEVNULL
+            ).strip()
+        else:
+            cpu = next(l.split(":", 1)[1].strip() for l in open("/proc/cpuinfo") if l.startswith("model name"))
     except Exception:
         pass
     return f"{cpu}, {os.cpu_count()} logical cores, {platform.system()} {platform.release()}"
