@@ -1,0 +1,17 @@
+{
+ "config": {
+  "base": "BAAI/bge-small-en-v1.5",
+  "per_route": 8,
+  "batch_size": 16,
+  "num_iterations": 5,
+  "num_epochs": 1
+ },
+ "seed": 4,
+ "acc": 0.905,
+ "train_seconds": 913.1689177639782,
+ "predictions": null,
+ "hardware": "Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz, 4 logical cores, Darwin 22.6.0",
+ "load": null,
+ "setfit": "1.2.0",
+ "note": "from the 27 October 2026 five-seed run; predictions were not stored in that run"
+}
