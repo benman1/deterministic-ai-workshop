@@ -36,6 +36,7 @@ Run each notebook from this directory, top to bottom. The first run downloads ab
 | `04_statistics_and_hard_negatives` | Exact coverage of Wilson, Wald and bootstrap intervals; McNemar; LLM-written hard negatives tested on held-out data | `01` |
 | `05_langgraph_cascade` | The state machine: classify, gate, escalate, review, idempotent execute; scorecard against an LLM-only router | `01`, `03` |
 | `06_quantization_and_release` | int8 quantization with a paired comparison, reproducibility check, and the release gate | `05` |
+| `07_policy_check` | The refund policy as named rules; a solver (Z3) checks a proposed action and names the rules in the way, and checks the rule list for conflicts and gaps; no model, runs in seconds | none |
 
 Each notebook writes its numbers to `data/results/<notebook>.json`. The workshop slides quote those files.
 

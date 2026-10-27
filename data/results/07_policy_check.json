@@ -1,0 +1,26 @@
+{
+  "n_cases": 5000,
+  "agree": 5000,
+  "wrong_allowed": 0,
+  "solver_median_ms": 0.3734305500984192,
+  "plain_us": 0.18124952912330627,
+  "current_conflicts": 0,
+  "edited_conflicts": [
+    [
+      "R2 flexible fare: refund in full",
+      "R5 under 2 days out, customer cancelled: none",
+      {
+        "days": "0",
+        "airline": "False",
+        "flex": "True"
+      }
+    ]
+  ],
+  "hole_example": {
+    "days": "6",
+    "flex": "False",
+    "airline": "False"
+  },
+  "hardware": "Intel Xeon Processor (Skylake, IBRS, no TSX), 4 logical cores, Linux 6.8.0-87-generic",
+  "z3_version": "4.12.2"
+}
