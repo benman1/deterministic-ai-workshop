@@ -2,8 +2,8 @@
   "n_cases": 5000,
   "agree": 5000,
   "wrong_allowed": 0,
-  "solver_median_ms": 0.3734305500984192,
-  "plain_us": 0.18124952912330627,
+  "solver_median_ms": 0.3828778862953186,
+  "plain_us": 0.35456418991088867,
   "current_conflicts": 0,
   "edited_conflicts": [
     [
@@ -20,6 +20,25 @@
     "days": "6",
     "flex": "False",
     "airline": "False"
+  },
+  "long_policy": {
+    "rules": 48,
+    "base_conflicts": 0,
+    "bug_conflicts": 1,
+    "base_s": 16.391083605587482,
+    "bug_s": 17.83141139894724,
+    "random_cases": 2000000,
+    "random_hits": 0
+  },
+  "regression": {
+    "clean": null,
+    "typo": {
+      "flex": "True",
+      "days": "2",
+      "airline": "False"
+    },
+    "ms_clean": 31.988848000764847,
+    "ms_typo": 36.61034256219864
   },
   "hardware": "Intel Xeon Processor (Skylake, IBRS, no TSX), 4 logical cores, Linux 6.8.0-87-generic",
   "z3_version": "4.12.2"
