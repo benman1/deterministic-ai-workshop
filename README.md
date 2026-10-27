@@ -37,6 +37,7 @@ Run each notebook from this directory, top to bottom. The first run downloads ab
 | `05_langgraph_cascade` | The state machine: classify, gate, escalate, review, idempotent execute; scorecard against an LLM-only router | `01`, `03` |
 | `06_quantization_and_release` | int8 quantization with a paired comparison, reproducibility check, and the release gate | `05` |
 | `07_policy_check` | The refund policy as named rules; a solver (Z3) checks a proposed action and names the rules in the way, and checks the rule list for conflicts and gaps; no model, runs in seconds | none |
+| `08_guardrail_comparison` | An open injection classifier (archived repository) against the typed cascade on 96 injected messages; what each catches, what each costs, and the weak point of the slow tier | `01`, `03`; downloads one extra model (about 0.7 GB) |
 
 Each notebook writes its numbers to `data/results/<notebook>.json`. The workshop slides quote those files.
 
