@@ -7,6 +7,7 @@ acts, and an LLM sees only the messages the gate refuses.
 ## Setup
 
 ```bash
+git clone https://github.com/benman1/deterministic-ai-workshop && cd deterministic-ai-workshop
 uv venv --python 3.11 .venv && uv pip install --python .venv/bin/python -r requirements.txt
 .venv/bin/python -m ipykernel install --user --name deterministic-ai
 .venv/bin/python -m pytest -q test_meridian.py        # 4 tests: splits, Wilson, cluster bootstrap
