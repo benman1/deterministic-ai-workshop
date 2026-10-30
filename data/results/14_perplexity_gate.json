@@ -1,0 +1,49 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "threshold_nll": 6.220289969444274,
+  "threshold_perplexity": 502.84902173332233,
+  "n_train_threshold": 200,
+  "ms_per_message": 630.3496008876684,
+  "groups": {
+    "benign test messages (false alarms)": {
+      "n": 200,
+      "k": 16
+    },
+    "fluent prompt injections": {
+      "n": 96,
+      "k": 0,
+      "auroc": 0.4219791666666667,
+      "auroc_ci": [
+        0.36035937500000004,
+        0.48423437499999994
+      ]
+    },
+    "word-swap attacks that fooled the encoder": {
+      "n": 171,
+      "k": 44,
+      "auroc": 0.7667251461988305,
+      "auroc_ci": [
+        0.7158179824561404,
+        0.8133925438596491
+      ]
+    },
+    "out-of-scope messages": {
+      "n": 25,
+      "k": 4,
+      "auroc": 0.5008,
+      "auroc_ci": [
+        0.3693657142857143,
+        0.6290285714285715
+      ]
+    },
+    "paired_swap": {
+      "auroc": 0.7342088163879484,
+      "ci": [
+        0.68183885640026,
+        0.785067200164153
+      ],
+      "n_up": 166,
+      "n": 171
+    }
+  }
+}

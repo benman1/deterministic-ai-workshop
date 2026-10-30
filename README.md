@@ -52,6 +52,7 @@ Run each notebook from this directory, top to bottom. The first run downloads ab
 | `11_decision_heads_compared` | Why logistic regression? Six heads (logistic regression, linear SVM, neural net, prototype, gradient-boosted trees, nearest neighbors) on the same frozen embeddings: accuracy with Wilson intervals, the paired test against logistic regression, head time, and calibration before and after temperature scaling | `01`; about 30 seconds |
 | `12_fallback_on_failure` | What happens when a tier fails: simulated slow-tier failures at four rates for four designs (a language model alone, with a retry, a cascade with no failure rule, a cascade that falls back to a person), the cost of falling back when the encoder is down, and a test that every message ends with a typed outcome | `05`, `06`; about 20 seconds |
 | `13_human_review_stage` | Who a reviewer should read first (errors found per messages read), how many acted messages a random audit needs, which messages a shadow run asks people to label, and a review tool that hides the model's pick until the reviewer commits | `05`, `10`; about 10 seconds |
+| `14_perplexity_gate` | Whether a small language model's perplexity can gate unusual input: a threshold set from benign messages, then the share of fluent injections, word-swap attacks and out-of-scope messages above it, with AUROC, and the effect of message length | `08`, `09`; about 10 minutes on a loaded laptop (0.5B model, CPU) |
 
 Each notebook writes its numbers to `data/results/<notebook>.json`. The workshop slides quote those files.
 
