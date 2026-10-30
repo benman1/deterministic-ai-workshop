@@ -1,0 +1,59 @@
+{
+  "n": 200,
+  "acted": 183,
+  "errors": 5,
+  "yield": {
+    "10": {
+      "lowest confidence first": 0,
+      "escalated first, then lowest confidence": 0,
+      "random": 0.256
+    },
+    "17": {
+      "lowest confidence first": 2,
+      "escalated first, then lowest confidence": 2,
+      "random": 0.433
+    },
+    "30": {
+      "lowest confidence first": 4,
+      "escalated first, then lowest confidence": 4,
+      "random": 0.7395
+    },
+    "50": {
+      "lowest confidence first": 5,
+      "escalated first, then lowest confidence": 5,
+      "random": 1.256
+    }
+  },
+  "audit": {
+    "20": {
+      "p_any": 0.2947754174998085,
+      "upper_if_zero": 0.16113012549493322
+    },
+    "40": {
+      "p_any": 0.5250559602520475,
+      "upper_if_zero": 0.08762453925039232
+    },
+    "75": {
+      "p_any": 0.796805314059186,
+      "upper_if_zero": 0.04872554590470005
+    },
+    "100": {
+      "p_any": 0.9085516421808424,
+      "upper_if_zero": 0.03699480747600191
+    },
+    "183": {
+      "p_any": 1.0,
+      "upper_if_zero": 0.020560731657189836
+    }
+  },
+  "audit_min_k_zero_errors_below_5pct": 73,
+  "shadow": {
+    "disagree": 16,
+    "live_only": 12,
+    "candidate_only": 3,
+    "neither": 1,
+    "mcnemar_p": 0.03515625
+  },
+  "scripted_reviewer_overturns": 2,
+  "escalated": 17
+}

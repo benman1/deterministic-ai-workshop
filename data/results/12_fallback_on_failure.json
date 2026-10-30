@@ -1,0 +1,138 @@
+{
+  "n": 200,
+  "acts": 183,
+  "escalated": 17,
+  "designs": {
+    "LLM alone, no fallback|0.0": {
+      "typed_missing": 0.0,
+      "person": 0.0,
+      "answered": 1.0,
+      "right": 190,
+      "n_auto": 200
+    },
+    "LLM alone, one retry|0.0": {
+      "typed_missing": 0.0,
+      "person": 0.0,
+      "answered": 1.0,
+      "right": 190,
+      "n_auto": 200
+    },
+    "cascade, no failure rule|0.0": {
+      "typed_missing": 0.0,
+      "person": 0.0,
+      "answered": 1.0,
+      "right": 195,
+      "n_auto": 200
+    },
+    "cascade with fallback|0.0": {
+      "typed_missing": 0.0,
+      "person": 0.0,
+      "answered": 1.0,
+      "right": 195,
+      "n_auto": 200
+    },
+    "LLM alone, no fallback|0.1": {
+      "typed_missing": 0.095,
+      "person": 0.0,
+      "answered": 0.905,
+      "right": 172,
+      "n_auto": 181
+    },
+    "LLM alone, one retry|0.1": {
+      "typed_missing": 0.01,
+      "person": 0.0,
+      "answered": 0.99,
+      "right": 188,
+      "n_auto": 198
+    },
+    "cascade, no failure rule|0.1": {
+      "typed_missing": 0.0,
+      "person": 0.0,
+      "answered": 1.0,
+      "right": 195,
+      "n_auto": 200
+    },
+    "cascade with fallback|0.1": {
+      "typed_missing": 0.0,
+      "person": 0.0,
+      "answered": 1.0,
+      "right": 195,
+      "n_auto": 200
+    },
+    "LLM alone, no fallback|0.5": {
+      "typed_missing": 0.5,
+      "person": 0.0,
+      "answered": 0.5,
+      "right": 95,
+      "n_auto": 100
+    },
+    "LLM alone, one retry|0.5": {
+      "typed_missing": 0.23,
+      "person": 0.0,
+      "answered": 0.77,
+      "right": 146,
+      "n_auto": 154
+    },
+    "cascade, no failure rule|0.5": {
+      "typed_missing": 0.025,
+      "person": 0.0,
+      "answered": 0.975,
+      "right": 190,
+      "n_auto": 195
+    },
+    "cascade with fallback|0.5": {
+      "typed_missing": 0.0,
+      "person": 0.025,
+      "answered": 0.975,
+      "right": 190,
+      "n_auto": 195
+    },
+    "LLM alone, no fallback|1.0": {
+      "typed_missing": 1.0,
+      "person": 0.0,
+      "answered": 0.0,
+      "right": 0,
+      "n_auto": 0
+    },
+    "LLM alone, one retry|1.0": {
+      "typed_missing": 1.0,
+      "person": 0.0,
+      "answered": 0.0,
+      "right": 0,
+      "n_auto": 0
+    },
+    "cascade, no failure rule|1.0": {
+      "typed_missing": 0.085,
+      "person": 0.0,
+      "answered": 0.915,
+      "right": 180,
+      "n_auto": 183
+    },
+    "cascade with fallback|1.0": {
+      "typed_missing": 0.0,
+      "person": 0.085,
+      "answered": 0.915,
+      "right": 180,
+      "n_auto": 183
+    }
+  },
+  "slow_all_acc": 0.95,
+  "fallback_options": {
+    "encoder up (normal run)": {
+      "calls": 85.0,
+      "person": 0.0
+    },
+    "encoder down, send all to the slow tier": {
+      "calls": 1000.0,
+      "person": 0.0
+    },
+    "encoder down, send all to a person": {
+      "calls": 0.0,
+      "person": 1.0
+    }
+  },
+  "checklist": {
+    "calls_per_1000": 120,
+    "person_share": 0.05
+  }
+}
