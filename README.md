@@ -20,6 +20,15 @@ uv pip install --python .venv/bin/python --index-strategy unsafe-best-match \
   --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
 ```
 
+To run the notebooks, start JupyterLab from the repository directory and open `00_setup_and_data.ipynb`:
+
+```bash
+source .venv/bin/activate
+jupyter lab
+```
+
+Pick the `deterministic-ai` kernel (Kernel, then Change Kernel). Run each notebook from the first cell to the last. In VS Code or Cursor, open the notebook file, choose the same kernel from the kernel picker, and use Run All.
+
 Notebook 01's long-context cell needs about 4 GB of free memory at 8,192 tokens; on a machine with less, run `LONG_CONTEXT_MAX=1024` before starting Jupyter (a 7.7 GB shared server lost the kernel to the out-of-memory killer there).
 
 The pins in `requirements.txt` are the last versions with wheels for an Intel Mac (torch 2.2.2, numpy 1.26, pyarrow 17). On Apple silicon or Linux, newer versions should work but are untested here.
