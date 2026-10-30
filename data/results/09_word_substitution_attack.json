@@ -1,0 +1,142 @@
+{
+  "n_attacked": 180,
+  "settings": {
+    "n_syn": 50,
+    "delta": 0.7,
+    "sim_floor": 0.8,
+    "sim_anchor": "original",
+    "sim_model": "all-MiniLM-L6-v2",
+    "pos": "nltk perceptron",
+    "vectors_sha256": "6f67f40c9b2e757695b3af2209bcd4393377962ca440dd4fad542937d01e7d56",
+    "goal": "gate acts on a wrong route",
+    "attacker_sees": "probabilities for every route"
+  },
+  "results": {
+    "label_flip": {
+      "k": 120,
+      "n": 180,
+      "wilson": [
+        0.5949509727403892,
+        0.7314169439879248
+      ],
+      "cluster": [
+        0.5755773353254515,
+        0.7570662290584892
+      ]
+    },
+    "wrong_action": {
+      "k": 83,
+      "n": 180,
+      "wilson": [
+        0.38986043427535044,
+        0.5339870518213765
+      ],
+      "cluster": [
+        0.3641304347826087,
+        0.559322033898305
+      ]
+    },
+    "escalated_instead": {
+      "k": 64,
+      "n": 180,
+      "wilson": [
+        0.28931215725066883,
+        0.42783564825145926
+      ],
+      "cluster": [
+        0.2832369942196532,
+        0.43617021276595747
+      ]
+    },
+    "survived": {
+      "k": 33,
+      "n": 180,
+      "wilson": [
+        0.13362624296924455,
+        0.24627471524695896
+      ],
+      "cluster": [
+        0.11475409836065574,
+        0.25683441707116034
+      ]
+    },
+    "control_flip": {
+      "mean": 0.011388888888888888
+    },
+    "control_wrong_action": {
+      "mean": 0.001666666666666667
+    },
+    "cost": {
+      "queries_all": [
+        65.0,
+        106.1
+      ],
+      "queries_success": [
+        57.0,
+        90.0
+      ],
+      "swaps_success": [
+        4.0,
+        7.0
+      ],
+      "swap_rate_success": 0.16666666666666666,
+      "sim_success": [
+        0.8325512409210205,
+        0.9178230285644531
+      ]
+    },
+    "by_route": {
+      "baggage_claim": [
+        11,
+        25
+      ],
+      "cancellation_request": [
+        17,
+        20
+      ],
+      "out_of_scope": [
+        5,
+        23
+      ],
+      "payment_dispute": [
+        11,
+        25
+      ],
+      "rebooking_request": [
+        14,
+        22
+      ],
+      "refund_claim": [
+        10,
+        16
+      ],
+      "service_complaint": [
+        9,
+        24
+      ],
+      "visa_entry_question": [
+        6,
+        25
+      ]
+    },
+    "valid_wrong_action": {
+      "k": 80,
+      "n": 180,
+      "wilson": [
+        0.37376583474975517,
+        0.5174448596741402
+      ],
+      "cluster": [
+        0.349720165697162,
+        0.5418994413407822
+      ]
+    },
+    "judged": {
+      "n": 83,
+      "same_route": 80,
+      "annotator": "model read (Claude), 30 Oct 2026; not a person"
+    }
+  },
+  "load_median": 13.6181640625,
+  "hardware": "Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz, 4 logical cores, Darwin 22.6.0"
+}

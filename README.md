@@ -38,6 +38,7 @@ Run each notebook from this directory, top to bottom. The first run downloads ab
 | `06_quantization_and_release` | int8 quantization with a paired comparison, reproducibility check, and the release gate | `05` |
 | `07_policy_check` | The refund policy as named rules; a solver (Z3) checks a proposed action and names the rules in the way, and checks the rule list for conflicts and gaps; no model, runs in seconds | none |
 | `08_guardrail_comparison` | An open injection classifier (archived repository) against the typed cascade on 96 injected messages; what each catches, what each costs, and the weak point of the slow tier | `01`, `03`; downloads one extra model (about 0.7 GB) |
+| `09_word_substitution_attack` | A TextFooler-style word-swap attack (written from the paper's algorithm) on the encoder and the gate: how often swapping a few words makes the gate act on a wrong route, with a random-swap control and a model's read of whether the message keeps its meaning | `01`, `03`; downloads counter-fitted word vectors; needs NLTK data first (`.venv/bin/python -m nltk.downloader averaged_perceptron_tagger_eng stopwords`, which this laptop already had; the notebook does not fetch it); the full run took about 40 minutes on a shared laptop |
 
 Each notebook writes its numbers to `data/results/<notebook>.json`. The workshop slides quote those files.
 
