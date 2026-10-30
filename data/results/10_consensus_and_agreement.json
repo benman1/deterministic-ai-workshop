@@ -1,0 +1,29 @@
+{
+  "four_of_four": {
+    "act": 171,
+    "wrong": 0,
+    "wilson": [
+      0.978028112302793,
+      1.0
+    ]
+  },
+  "three_of_four": {
+    "act": 191,
+    "wrong": 4,
+    "wilson": [
+      0.9473978534029164,
+      0.9918266243266853
+    ]
+  },
+  "encoders_unanimous": {
+    "act": 178,
+    "wrong": 2,
+    "wilson": [
+      0.9599634213341491,
+      0.9969133329399004
+    ]
+  },
+  "unanimous_but_wrong": 2,
+  "rho": 0.2568245367589436,
+  "effective_voters": 2.259282474916167
+}
