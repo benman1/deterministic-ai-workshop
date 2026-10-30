@@ -1,0 +1,53 @@
+{
+  "bm25": {
+    "top1": 13,
+    "top3": 19,
+    "mrr": 0.8016666666666665,
+    "bad_top3": 8
+  },
+  "dense": {
+    "top1": 17,
+    "top3": 20,
+    "mrr": 0.925,
+    "bad_top3": 11
+  },
+  "fused": {
+    "top1": 15,
+    "top3": 20,
+    "mrr": 0.875,
+    "bad_top3": 10
+  },
+  "rerank": {
+    "top1": 18,
+    "top3": 20,
+    "mrr": 0.95,
+    "bad_top3": 7
+  },
+  "disagree": {
+    "n_differ": 4,
+    "rerank_only_right": 2,
+    "dense_only_right": 1,
+    "p": 1.0
+  },
+  "gate_embedding": {
+    "auroc": 1.0,
+    "ci": [
+      0.9999999999999999,
+      1.0
+    ],
+    "ans_min": 0.709568977355957,
+    "un_max": 0.695981502532959
+  },
+  "gate_cross-encoder": {
+    "auroc": 0.9916666666666667,
+    "ci": [
+      0.9500000000000001,
+      1.0
+    ],
+    "ans_min": 0.05614379048347473,
+    "un_max": 0.20074257254600525
+  },
+  "n_answerable": 20,
+  "n_unanswerable": 6,
+  "ms_per_question_all_rankers": 5994.256576666465
+}
