@@ -1,0 +1,210 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "attention": "eager",
+  "matmul": [
+    {
+      "format": "float32",
+      "batch": 8,
+      "max_diff": 1300.0,
+      "relative": 1.51e-05,
+      "repeat_diff": 0.0
+    },
+    {
+      "format": "float32",
+      "batch": 64,
+      "max_diff": 1130.0,
+      "relative": 9.72e-05,
+      "repeat_diff": 0.0
+    },
+    {
+      "format": "float32",
+      "batch": 512,
+      "max_diff": 879.0,
+      "relative": 0.000377,
+      "repeat_diff": 0.0
+    },
+    {
+      "format": "bfloat16",
+      "batch": 8,
+      "max_diff": 0.0,
+      "relative": 0.0,
+      "repeat_diff": 0.0
+    },
+    {
+      "format": "bfloat16",
+      "batch": 64,
+      "max_diff": 0.0,
+      "relative": 0.0,
+      "repeat_diff": 0.0
+    },
+    {
+      "format": "bfloat16",
+      "batch": 512,
+      "max_diff": 0.0,
+      "relative": 0.0,
+      "repeat_diff": 0.0
+    }
+  ],
+  "teacher_forced": {
+    "float32 | alone, again": {
+      "max_logit_change": 0.0,
+      "flips": 0,
+      "positions": 800,
+      "prompts_with_change": 0,
+      "prompts": 8
+    },
+    "float32 | batch of 4": {
+      "max_logit_change": 6.29e-05,
+      "flips": 0,
+      "positions": 800,
+      "prompts_with_change": 0,
+      "prompts": 8
+    },
+    "float32 | batch of 8": {
+      "max_logit_change": 6.91e-05,
+      "flips": 0,
+      "positions": 800,
+      "prompts_with_change": 0,
+      "prompts": 8
+    },
+    "bfloat16 | alone, again": {
+      "max_logit_change": 0.0,
+      "flips": 0,
+      "positions": 800,
+      "prompts_with_change": 0,
+      "prompts": 8
+    },
+    "bfloat16 | batch of 4": {
+      "max_logit_change": 1.34,
+      "flips": 11,
+      "positions": 800,
+      "prompts_with_change": 5,
+      "prompts": 8
+    },
+    "bfloat16 | batch of 8": {
+      "max_logit_change": 1.34,
+      "flips": 13,
+      "positions": 800,
+      "prompts_with_change": 6,
+      "prompts": 8
+    }
+  },
+  "free_running_open_ended": {
+    "n_prompts": 16,
+    "new_tokens": 10,
+    "n_differ_from_alone": {
+      "alone, again": 0,
+      "batch of 4": 2,
+      "batch of 8": 6,
+      "batch of 8, mixed": 1
+    },
+    "distinct_answers_per_prompt": [
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    "prompts_with_2_or_more_distinct": 6
+  },
+  "free_running_numbers": {
+    "n_prompts": 48,
+    "new_tokens": 8,
+    "n_differ_from_alone": {
+      "alone, again": 0,
+      "batch of 8": 8,
+      "batch of 8, mixed": 11,
+      "batch of 16": 8
+    },
+    "prompts_with_2_or_more_distinct": 15
+  },
+  "free_running_long": {
+    "new_tokens": 150,
+    "first_differing_token": {
+      "alone, again": null,
+      "batch of 2": 123
+    }
+  },
+  "temperature_rows": [
+    {
+      "temperature": 0.0,
+      "mean_distinct_labels": 1.0,
+      "share_with_disagreement": 0.0,
+      "mean_distinct_strings": 1.0,
+      "mean_correct": 0.15
+    },
+    {
+      "temperature": 0.2,
+      "mean_distinct_labels": 1.75,
+      "share_with_disagreement": 0.55,
+      "mean_distinct_strings": 1.85,
+      "mean_correct": 0.16
+    },
+    {
+      "temperature": 0.5,
+      "mean_distinct_labels": 3.05,
+      "share_with_disagreement": 0.9,
+      "mean_distinct_strings": 3.95,
+      "mean_correct": 0.11500000000000002
+    },
+    {
+      "temperature": 0.8,
+      "mean_distinct_labels": 3.95,
+      "share_with_disagreement": 1.0,
+      "mean_distinct_strings": 5.35,
+      "mean_correct": 0.15000000000000002
+    },
+    {
+      "temperature": 1.0,
+      "mean_distinct_labels": 3.85,
+      "share_with_disagreement": 0.95,
+      "mean_distinct_strings": 6.85,
+      "mean_correct": 0.13000000000000003
+    },
+    {
+      "temperature": 1.3,
+      "mean_distinct_labels": 3.6,
+      "share_with_disagreement": 0.95,
+      "mean_distinct_strings": 8.15,
+      "mean_correct": 0.085
+    }
+  ],
+  "n_messages_temperature": 20,
+  "samples_per_message": 10,
+  "closed_choice_bf16": {
+    "n": 16,
+    "conditions": {
+      "alone, again (first 4 messages)": {
+        "messages": 4,
+        "flips": 0,
+        "max_prob_change": 0.0
+      },
+      "inside a batch of 4": {
+        "messages": 16,
+        "flips": 5,
+        "max_prob_change": 0.11736351251602173
+      },
+      "inside a batch of 8, mixed": {
+        "messages": 16,
+        "flips": 5,
+        "max_prob_change": 0.11598140001296997
+      }
+    },
+    "min_margin": 0.0,
+    "median_margin": 0.08502146601676941,
+    "labels_changed_any": 7,
+    "largest_probability_change": 0.11736351251602173
+  },
+  "note": "Assembled from the printed outputs of two sessions of the notebook: part 1 (matrix test to the 150-token run) and part 2 (closed choice, cache, temperature); the first session stopped at the closed-choice cell, whose 60-message version exceeded the cell time limit."
+}
