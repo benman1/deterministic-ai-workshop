@@ -76,3 +76,7 @@ Each notebook writes its numbers to `data/results/<notebook>.json`. The workshop
 ## License
 
 MIT, see `LICENSE`. The model weights the notebooks download carry their own licenses (LFM2.5-Encoder-230M uses the LFM Open License v1.0).
+
+## Colab notebooks
+
+`colab/` holds two GPU experiments (a fine-tuned student for notebook 18, and a comparison of repairs for a small model that loops while thinking). See `colab/README.md`; they are untested on a Colab GPU.
