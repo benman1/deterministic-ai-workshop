@@ -1,0 +1,6 @@
+minicheck alpha=0.1: coverage 0.900 (min 0.830) | decided alone 0.927 | accuracy when decided 0.971 | tuned-threshold acc 0.943 | ECE10 0.065
+minicheck alpha=0.05: coverage 0.951 (min 0.873) | decided alone 0.980 | accuracy when decided 0.954 | tuned-threshold acc 0.943 | ECE10 0.065
+hhem alpha=0.1: coverage 0.900 (min 0.840) | decided alone 0.464 | accuracy when decided 0.788 | tuned-threshold acc 0.649 | ECE10 0.141
+hhem alpha=0.05: coverage 0.951 (min 0.877) | decided alone 0.322 | accuracy when decided 0.850 | tuned-threshold acc 0.649 | ECE10 0.141
+nli alpha=0.1: coverage 0.901 (min 0.820) | decided alone 0.343 | accuracy when decided 0.714 | tuned-threshold acc 0.678 | ECE10 0.304
+nli alpha=0.05: coverage 0.951 (min 0.903) | decided alone 0.216 | accuracy when decided 0.778 | tuned-threshold acc 0.678 | ECE10 0.304

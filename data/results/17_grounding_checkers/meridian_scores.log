@@ -1,0 +1,103 @@
+pairs 118 examples 236
+ce: loaded in 7.4s
+ce 10/236 last 3.717 38ms running acc@0.5 0/10
+ce 20/236 last 6.885 568ms running acc@0.5 0/20
+ce 30/236 last 6.936 831ms running acc@0.5 0/30
+ce 40/236 last 4.001 501ms running acc@0.5 0/40
+ce 50/236 last 8.536 714ms running acc@0.5 0/50
+ce 60/236 last 5.997 695ms running acc@0.5 0/60
+ce 70/236 last 4.207 754ms running acc@0.5 0/70
+ce 80/236 last 8.088 523ms running acc@0.5 0/80
+ce 90/236 last 5.107 625ms running acc@0.5 0/90
+ce 100/236 last 5.162 392ms running acc@0.5 0/100
+ce 110/236 last 5.126 542ms running acc@0.5 0/110
+ce 120/236 last 9.621 458ms running acc@0.5 0/120
+ce 130/236 last 4.465 649ms running acc@0.5 0/130
+ce 140/236 last 6.481 692ms running acc@0.5 0/140
+ce 150/236 last 6.282 722ms running acc@0.5 0/150
+ce 160/236 last 4.599 559ms running acc@0.5 0/160
+ce 170/236 last 5.810 553ms running acc@0.5 0/170
+ce 180/236 last 7.205 526ms running acc@0.5 0/180
+ce 190/236 last 7.298 580ms running acc@0.5 0/190
+ce 200/236 last 7.782 594ms running acc@0.5 0/200
+ce 210/236 last 6.243 346ms running acc@0.5 0/210
+ce 220/236 last 7.919 254ms running acc@0.5 0/220
+ce 230/236 last 8.214 161ms running acc@0.5 0/230
+ce: done 236 in 134.4s
+nli: loaded in 2.2s
+nli 10/236 last 0.000 3088ms running acc@0.5 10/10
+nli 20/236 last 0.000 1502ms running acc@0.5 19/20
+nli 30/236 last 0.000 3869ms running acc@0.5 29/30
+nli 40/236 last 0.000 3651ms running acc@0.5 36/40
+nli 50/236 last 0.001 1049ms running acc@0.5 43/50
+nli 60/236 last 0.000 922ms running acc@0.5 49/60
+nli 70/236 last 0.001 2421ms running acc@0.5 56/70
+nli 80/236 last 0.000 4155ms running acc@0.5 62/80
+nli 90/236 last 0.000 1986ms running acc@0.5 71/90
+nli 100/236 last 0.000 5496ms running acc@0.5 81/100
+nli 110/236 last 0.000 5939ms running acc@0.5 89/110
+nli 120/236 last 0.000 6764ms running acc@0.5 96/120
+nli 130/236 last 0.771 3317ms running acc@0.5 104/130
+nli 140/236 last 0.016 3699ms running acc@0.5 111/140
+nli 150/236 last 0.000 4746ms running acc@0.5 116/150
+nli 160/236 last 0.000 3495ms running acc@0.5 123/160
+nli 170/236 last 0.000 11797ms running acc@0.5 132/170
+nli 180/236 last 0.000 13322ms running acc@0.5 141/180
+nli 190/236 last 0.000 10138ms running acc@0.5 150/190
+nli 200/236 last 0.000 7395ms running acc@0.5 157/200
+nli 210/236 last 0.000 7261ms running acc@0.5 166/210
+nli 220/236 last 0.000 7137ms running acc@0.5 174/220
+nli 230/236 last 0.001 5854ms running acc@0.5 181/230
+nli: done 236 in 1328.9s
+hhem missing ['transformer.encoder.embed_tokens.weight'] unexpected []
+hhem: loaded in 12.0s
+hhem 10/236 last 0.026 4133ms running acc@0.5 10/10
+hhem 20/236 last 0.804 1315ms running acc@0.5 18/20
+hhem 30/236 last 0.045 2809ms running acc@0.5 27/30
+hhem 40/236 last 0.546 601ms running acc@0.5 36/40
+hhem 50/236 last 0.068 4005ms running acc@0.5 43/50
+hhem 60/236 last 0.137 4603ms running acc@0.5 50/60
+hhem 70/236 last 0.336 4278ms running acc@0.5 59/70
+hhem 80/236 last 0.371 297ms running acc@0.5 68/80
+hhem 90/236 last 0.191 221ms running acc@0.5 76/90
+hhem 100/236 last 0.730 237ms running acc@0.5 84/100
+hhem 110/236 last 0.102 273ms running acc@0.5 90/110
+hhem 120/236 last 0.418 444ms running acc@0.5 97/120
+hhem 130/236 last 0.229 210ms running acc@0.5 106/130
+hhem 140/236 last 0.034 225ms running acc@0.5 115/140
+hhem 150/236 last 0.044 324ms running acc@0.5 122/150
+hhem 160/236 last 0.188 182ms running acc@0.5 130/160
+hhem 170/236 last 0.064 273ms running acc@0.5 138/170
+hhem 180/236 last 0.084 234ms running acc@0.5 146/180
+hhem 190/236 last 0.527 405ms running acc@0.5 154/190
+hhem 200/236 last 0.268 303ms running acc@0.5 161/200
+hhem 210/236 last 0.108 337ms running acc@0.5 170/210
+hhem 220/236 last 0.739 284ms running acc@0.5 177/220
+hhem 230/236 last 0.069 296ms running acc@0.5 185/230
+hhem: done 236 in 271.6s
+mc missing 0 unexpected 0
+minicheck: loaded in 11.0s
+minicheck 10/236 last 0.063 633ms running acc@0.5 10/10
+minicheck 20/236 last 0.047 975ms running acc@0.5 20/20
+minicheck 30/236 last 0.038 1275ms running acc@0.5 30/30
+minicheck 40/236 last 0.033 1100ms running acc@0.5 40/40
+minicheck 50/236 last 0.052 464ms running acc@0.5 48/50
+minicheck 60/236 last 0.015 744ms running acc@0.5 56/60
+minicheck 70/236 last 0.059 1114ms running acc@0.5 66/70
+minicheck 80/236 last 0.018 821ms running acc@0.5 75/80
+minicheck 90/236 last 0.036 769ms running acc@0.5 83/90
+minicheck 100/236 last 0.028 1407ms running acc@0.5 92/100
+minicheck 110/236 last 0.019 474ms running acc@0.5 99/110
+minicheck 120/236 last 0.100 468ms running acc@0.5 109/120
+minicheck 130/236 last 0.159 216ms running acc@0.5 117/130
+minicheck 140/236 last 0.332 344ms running acc@0.5 125/140
+minicheck 150/236 last 0.013 620ms running acc@0.5 132/150
+minicheck 160/236 last 0.010 171ms running acc@0.5 139/160
+minicheck 170/236 last 0.007 233ms running acc@0.5 147/170
+minicheck 180/236 last 0.007 234ms running acc@0.5 156/180
+minicheck 190/236 last 0.035 649ms running acc@0.5 165/190
+minicheck 200/236 last 0.035 264ms running acc@0.5 173/200
+minicheck 210/236 last 0.029 331ms running acc@0.5 182/210
+minicheck 220/236 last 0.049 518ms running acc@0.5 191/220
+minicheck 230/236 last 0.019 514ms running acc@0.5 199/230
+minicheck: done 236 in 198.4s

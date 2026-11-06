@@ -1,0 +1,28 @@
+pairs 118 examples 236
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:22<00:22, 22.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 13.55s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 14.89s/it]
+Qwen/Qwen3-1.7B loaded in 34.6s
+10/236 last 0.002 3951ms acc@0.5 10/10
+20/236 last 0.000 8609ms acc@0.5 20/20
+30/236 last 0.000 15312ms acc@0.5 28/30
+40/236 last 0.000 25156ms acc@0.5 37/40
+50/236 last 0.000 9508ms acc@0.5 44/50
+60/236 last 0.000 5213ms acc@0.5 52/60
+70/236 last 0.000 5250ms acc@0.5 61/70
+80/236 last 0.000 22813ms acc@0.5 68/80
+90/236 last 0.000 6369ms acc@0.5 78/90
+100/236 last 0.000 18513ms acc@0.5 87/100
+110/236 last 0.999 22261ms acc@0.5 94/110
+120/236 last 0.000 18919ms acc@0.5 104/120
+130/236 last 1.000 12752ms acc@0.5 110/130
+140/236 last 0.997 6222ms acc@0.5 118/140
+150/236 last 0.025 15857ms acc@0.5 125/150
+160/236 last 1.000 3393ms acc@0.5 131/160
+170/236 last 0.000 23220ms acc@0.5 139/170
+180/236 last 0.000 2691ms acc@0.5 148/180
+190/236 last 0.377 20600ms acc@0.5 157/190
+200/236 last 0.000 5557ms acc@0.5 165/200
+210/236 last 0.000 21397ms acc@0.5 174/210
+220/236 last 0.000 23019ms acc@0.5 182/220
+230/236 last 0.255 8045ms acc@0.5 190/230
+pairs ranked right 112 of 118

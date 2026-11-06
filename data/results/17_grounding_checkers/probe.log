@@ -1,0 +1,9 @@
+flip pairs 4955
+labels [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+cross-encoder relevance: loaded+scored 20 in 9.6s -> [5.999, 0.836, 4.954, 8.937, -1.718, -5.751]
+nli labels {0: 'contradiction', 1: 'entailment', 2: 'neutral'}
+nli deberta: loaded+scored 20 in 137.9s -> [[0.004, 0.002, 0.994], [0.0, 0.99, 0.01], [0.001, 0.001, 0.998], [0.001, 0.994, 0.005], [0.007, 0.003, 0.99], [0.001, 0.001, 0.997]]
+hhem missing 1 ['transformer.encoder.embed_tokens.weight'] unexpected 0 []
+hhem: loaded+scored 20 in 111.3s -> [0.023, 0.783, 0.008, 0.789, 0.172, 0.58]
+minicheck roberta: FAILED ValueError: Due to a serious vulnerability issue in `torch.load`, even with `weights_only=True`, we now require users to upgrade torch to at least v2.6 in order to use the function. This version restriction does not apply when loading files with safetensors.
+See the vulnerability report here https://nvd.nist.go
