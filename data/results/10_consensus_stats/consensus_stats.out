@@ -1,0 +1,7 @@
+N=200 error rates {'bge-small': 0.03, 'modernbert': 0.075, 'lfm2.5-enc': 0.075, 'slow tier': 0.05}
+rho 0.257  95% bootstrap [0.150, 0.355]
+effective voters 2.26  95% bootstrap [1.94, 2.76]
+all four wrong together: observed 0, expected under independence 0.00
+messages by number of wrong voters, observed vs independent: [(0, 171, 157.7), (1, 16, 38.7), (2, 9, 3.4), (3, 4, 0.1), (4, 0, 0.0)]
+best single voter: bge-small error 0.030
+plurality vote right 194/200, best voter right 194/200; vote-only-right 2, voter-only-right 2, exact McNemar p=1.000
