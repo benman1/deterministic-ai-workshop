@@ -1,0 +1,202 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:23<00:23, 23.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 11.84s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 13.57s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+1/200 valid                        sec  74.6 tally {'valid': 1}
+2/200 valid                        sec  66.5 tally {'valid': 2}
+3/200 valid                        sec  50.1 tally {'valid': 3}
+4/200 valid                        sec  53.4 tally {'valid': 4}
+5/200 valid                        sec  54.7 tally {'valid': 5}
+6/200 valid                        sec  52.5 tally {'valid': 6}
+7/200 valid                        sec  49.3 tally {'valid': 7}
+8/200 valid                        sec  82.6 tally {'valid': 8}
+9/200 valid                        sec  54.2 tally {'valid': 9}
+10/200 valid                        sec  61.8 tally {'valid': 10}
+11/200 valid                        sec  54.6 tally {'valid': 11}
+12/200 valid                        sec  26.0 tally {'valid': 12}
+13/200 valid                        sec  22.7 tally {'valid': 13}
+14/200 valid                        sec  25.6 tally {'valid': 14}
+15/200 valid                        sec  60.7 tally {'valid': 15}
+16/200 valid                        sec  22.0 tally {'valid': 16}
+17/200 valid                        sec   8.5 tally {'valid': 17}
+18/200 valid                        sec  10.0 tally {'valid': 18}
+19/200 valid                        sec  24.9 tally {'valid': 19}
+20/200 valid                        sec  10.7 tally {'valid': 20}
+21/200 valid                        sec   8.9 tally {'valid': 21}
+22/200 valid                        sec   9.7 tally {'valid': 22}
+23/200 valid                        sec  23.7 tally {'valid': 23}
+24/200 valid                        sec  10.3 tally {'valid': 24}
+25/200 valid                        sec  33.4 tally {'valid': 25}
+26/200 valid                        sec  24.9 tally {'valid': 26}
+27/200 valid                        sec  35.0 tally {'valid': 27}
+28/200 valid                        sec  13.4 tally {'valid': 28}
+29/200 valid                        sec  12.6 tally {'valid': 29}
+30/200 valid                        sec  13.6 tally {'valid': 30}
+31/200 valid                        sec  14.4 tally {'valid': 31}
+32/200 valid                        sec  14.6 tally {'valid': 32}
+33/200 valid                        sec  11.1 tally {'valid': 33}
+34/200 valid                        sec   7.2 tally {'valid': 34}
+35/200 valid                        sec  11.0 tally {'valid': 35}
+36/200 valid                        sec  11.0 tally {'valid': 36}
+37/200 valid                        sec  28.7 tally {'valid': 37}
+38/200 valid                        sec  39.7 tally {'valid': 38}
+39/200 valid                        sec   8.0 tally {'valid': 39}
+40/200 valid                        sec   9.0 tally {'valid': 40}
+41/200 valid                        sec   9.5 tally {'valid': 41}
+42/200 valid                        sec   8.3 tally {'valid': 42}
+43/200 valid                        sec   9.6 tally {'valid': 43}
+44/200 valid                        sec   6.5 tally {'valid': 44}
+45/200 label_outside_set            sec   6.0 tally {'valid': 44, 'label_outside_set': 1}
+46/200 valid                        sec   5.5 tally {'valid': 45, 'label_outside_set': 1}
+47/200 valid                        sec   6.2 tally {'valid': 46, 'label_outside_set': 1}
+48/200 valid                        sec   7.3 tally {'valid': 47, 'label_outside_set': 1}
+49/200 valid                        sec   6.4 tally {'valid': 48, 'label_outside_set': 1}
+50/200 valid                        sec  16.2 tally {'valid': 49, 'label_outside_set': 1}
+51/200 valid                        sec   5.5 tally {'valid': 50, 'label_outside_set': 1}
+52/200 valid                        sec   5.4 tally {'valid': 51, 'label_outside_set': 1}
+53/200 valid                        sec   6.5 tally {'valid': 52, 'label_outside_set': 1}
+54/200 label_outside_set            sec   6.9 tally {'valid': 52, 'label_outside_set': 2}
+55/200 valid                        sec   5.8 tally {'valid': 53, 'label_outside_set': 2}
+56/200 valid                        sec   5.6 tally {'valid': 54, 'label_outside_set': 2}
+57/200 valid                        sec   5.2 tally {'valid': 55, 'label_outside_set': 2}
+58/200 valid                        sec   8.0 tally {'valid': 56, 'label_outside_set': 2}
+59/200 valid                        sec   7.0 tally {'valid': 57, 'label_outside_set': 2}
+60/200 valid                        sec  18.4 tally {'valid': 58, 'label_outside_set': 2}
+61/200 valid                        sec  18.8 tally {'valid': 59, 'label_outside_set': 2}
+62/200 valid                        sec  28.5 tally {'valid': 60, 'label_outside_set': 2}
+63/200 valid                        sec  38.1 tally {'valid': 61, 'label_outside_set': 2}
+64/200 valid                        sec  34.0 tally {'valid': 62, 'label_outside_set': 2}
+65/200 valid                        sec  54.6 tally {'valid': 63, 'label_outside_set': 2}
+66/200 valid                        sec  54.4 tally {'valid': 64, 'label_outside_set': 2}
+67/200 valid                        sec  54.6 tally {'valid': 65, 'label_outside_set': 2}
+68/200 valid                        sec  48.8 tally {'valid': 66, 'label_outside_set': 2}
+69/200 valid                        sec  59.2 tally {'valid': 67, 'label_outside_set': 2}
+70/200 valid                        sec  45.8 tally {'valid': 68, 'label_outside_set': 2}
+71/200 valid                        sec  51.9 tally {'valid': 69, 'label_outside_set': 2}
+72/200 valid                        sec  58.7 tally {'valid': 70, 'label_outside_set': 2}
+73/200 valid                        sec  60.7 tally {'valid': 71, 'label_outside_set': 2}
+74/200 valid                        sec  69.8 tally {'valid': 72, 'label_outside_set': 2}
+75/200 valid                        sec  68.7 tally {'valid': 73, 'label_outside_set': 2}
+76/200 valid                        sec  66.9 tally {'valid': 74, 'label_outside_set': 2}
+77/200 valid                        sec  68.8 tally {'valid': 75, 'label_outside_set': 2}
+78/200 valid                        sec  71.4 tally {'valid': 76, 'label_outside_set': 2}
+79/200 valid                        sec  78.1 tally {'valid': 77, 'label_outside_set': 2}
+80/200 valid                        sec  72.1 tally {'valid': 78, 'label_outside_set': 2}
+81/200 valid                        sec  94.4 tally {'valid': 79, 'label_outside_set': 2}
+82/200 valid                        sec  91.1 tally {'valid': 80, 'label_outside_set': 2}
+83/200 label_outside_set            sec  77.1 tally {'valid': 80, 'label_outside_set': 3}
+84/200 valid                        sec  75.4 tally {'valid': 81, 'label_outside_set': 3}
+85/200 valid                        sec  62.8 tally {'valid': 82, 'label_outside_set': 3}
+86/200 valid                        sec  64.6 tally {'valid': 83, 'label_outside_set': 3}
+87/200 valid                        sec  63.1 tally {'valid': 84, 'label_outside_set': 3}
+88/200 valid                        sec  63.9 tally {'valid': 85, 'label_outside_set': 3}
+89/200 valid                        sec  69.5 tally {'valid': 86, 'label_outside_set': 3}
+90/200 valid                        sec  64.6 tally {'valid': 87, 'label_outside_set': 3}
+91/200 valid                        sec  65.5 tally {'valid': 88, 'label_outside_set': 3}
+92/200 valid                        sec  65.7 tally {'valid': 89, 'label_outside_set': 3}
+93/200 valid                        sec  65.0 tally {'valid': 90, 'label_outside_set': 3}
+94/200 valid                        sec  57.3 tally {'valid': 91, 'label_outside_set': 3}
+95/200 valid                        sec  61.7 tally {'valid': 92, 'label_outside_set': 3}
+96/200 valid                        sec  61.0 tally {'valid': 93, 'label_outside_set': 3}
+97/200 valid                        sec  61.9 tally {'valid': 94, 'label_outside_set': 3}
+98/200 valid                        sec  62.8 tally {'valid': 95, 'label_outside_set': 3}
+99/200 valid                        sec  61.8 tally {'valid': 96, 'label_outside_set': 3}
+100/200 valid                        sec  75.2 tally {'valid': 97, 'label_outside_set': 3}
+101/200 valid                        sec  64.0 tally {'valid': 98, 'label_outside_set': 3}
+102/200 valid                        sec  61.3 tally {'valid': 99, 'label_outside_set': 3}
+103/200 valid                        sec  68.4 tally {'valid': 100, 'label_outside_set': 3}
+104/200 valid                        sec  44.0 tally {'valid': 101, 'label_outside_set': 3}
+105/200 valid                        sec   8.9 tally {'valid': 102, 'label_outside_set': 3}
+106/200 valid                        sec   8.5 tally {'valid': 103, 'label_outside_set': 3}
+107/200 valid                        sec   9.4 tally {'valid': 104, 'label_outside_set': 3}
+108/200 valid                        sec  38.9 tally {'valid': 105, 'label_outside_set': 3}
+109/200 valid                        sec   8.1 tally {'valid': 106, 'label_outside_set': 3}
+110/200 valid                        sec  13.3 tally {'valid': 107, 'label_outside_set': 3}
+111/200 valid                        sec  46.8 tally {'valid': 108, 'label_outside_set': 3}
+112/200 valid                        sec  31.5 tally {'valid': 109, 'label_outside_set': 3}
+113/200 valid                        sec  16.4 tally {'valid': 110, 'label_outside_set': 3}
+114/200 valid                        sec  10.3 tally {'valid': 111, 'label_outside_set': 3}
+115/200 valid                        sec  23.5 tally {'valid': 112, 'label_outside_set': 3}
+116/200 valid                        sec  16.8 tally {'valid': 113, 'label_outside_set': 3}
+117/200 valid                        sec  12.9 tally {'valid': 114, 'label_outside_set': 3}
+118/200 valid                        sec  17.9 tally {'valid': 115, 'label_outside_set': 3}
+119/200 valid                        sec  21.8 tally {'valid': 116, 'label_outside_set': 3}
+120/200 valid                        sec  14.4 tally {'valid': 117, 'label_outside_set': 3}
+121/200 valid                        sec  13.1 tally {'valid': 118, 'label_outside_set': 3}
+122/200 valid                        sec  12.2 tally {'valid': 119, 'label_outside_set': 3}
+123/200 valid                        sec  19.9 tally {'valid': 120, 'label_outside_set': 3}
+124/200 valid                        sec  12.0 tally {'valid': 121, 'label_outside_set': 3}
+125/200 valid                        sec  10.9 tally {'valid': 122, 'label_outside_set': 3}
+126/200 valid                        sec   9.9 tally {'valid': 123, 'label_outside_set': 3}
+127/200 valid                        sec  10.1 tally {'valid': 124, 'label_outside_set': 3}
+128/200 valid                        sec   7.3 tally {'valid': 125, 'label_outside_set': 3}
+129/200 valid                        sec   7.6 tally {'valid': 126, 'label_outside_set': 3}
+130/200 valid                        sec  11.2 tally {'valid': 127, 'label_outside_set': 3}
+131/200 valid                        sec   7.2 tally {'valid': 128, 'label_outside_set': 3}
+132/200 valid                        sec   8.0 tally {'valid': 129, 'label_outside_set': 3}
+133/200 valid                        sec   7.2 tally {'valid': 130, 'label_outside_set': 3}
+134/200 valid                        sec   6.5 tally {'valid': 131, 'label_outside_set': 3}
+135/200 valid                        sec   6.7 tally {'valid': 132, 'label_outside_set': 3}
+136/200 valid                        sec   6.1 tally {'valid': 133, 'label_outside_set': 3}
+137/200 valid                        sec   7.3 tally {'valid': 134, 'label_outside_set': 3}
+138/200 valid                        sec   7.6 tally {'valid': 135, 'label_outside_set': 3}
+139/200 valid                        sec   7.8 tally {'valid': 136, 'label_outside_set': 3}
+140/200 valid                        sec   9.4 tally {'valid': 137, 'label_outside_set': 3}
+141/200 valid                        sec   8.2 tally {'valid': 138, 'label_outside_set': 3}
+142/200 valid                        sec  10.2 tally {'valid': 139, 'label_outside_set': 3}
+143/200 valid                        sec  12.8 tally {'valid': 140, 'label_outside_set': 3}
+144/200 valid                        sec   8.9 tally {'valid': 141, 'label_outside_set': 3}
+145/200 valid                        sec   7.1 tally {'valid': 142, 'label_outside_set': 3}
+146/200 valid                        sec   7.1 tally {'valid': 143, 'label_outside_set': 3}
+147/200 valid                        sec   6.1 tally {'valid': 144, 'label_outside_set': 3}
+148/200 valid                        sec  10.1 tally {'valid': 145, 'label_outside_set': 3}
+149/200 valid                        sec  11.8 tally {'valid': 146, 'label_outside_set': 3}
+150/200 valid                        sec  13.3 tally {'valid': 147, 'label_outside_set': 3}
+151/200 valid                        sec  23.5 tally {'valid': 148, 'label_outside_set': 3}
+152/200 valid                        sec  16.0 tally {'valid': 149, 'label_outside_set': 3}
+153/200 label_outside_set            sec  10.3 tally {'valid': 149, 'label_outside_set': 4}
+154/200 valid                        sec  11.6 tally {'valid': 150, 'label_outside_set': 4}
+155/200 valid                        sec  10.5 tally {'valid': 151, 'label_outside_set': 4}
+156/200 valid                        sec   8.5 tally {'valid': 152, 'label_outside_set': 4}
+157/200 valid                        sec  12.6 tally {'valid': 153, 'label_outside_set': 4}
+158/200 valid                        sec   7.3 tally {'valid': 154, 'label_outside_set': 4}
+159/200 valid                        sec  36.2 tally {'valid': 155, 'label_outside_set': 4}
+160/200 valid                        sec  13.4 tally {'valid': 156, 'label_outside_set': 4}
+161/200 valid                        sec  38.3 tally {'valid': 157, 'label_outside_set': 4}
+162/200 valid                        sec  63.1 tally {'valid': 158, 'label_outside_set': 4}
+163/200 valid                        sec  61.8 tally {'valid': 159, 'label_outside_set': 4}
+164/200 valid                        sec  79.4 tally {'valid': 160, 'label_outside_set': 4}
+165/200 valid                        sec  87.3 tally {'valid': 161, 'label_outside_set': 4}
+166/200 valid                        sec  42.8 tally {'valid': 162, 'label_outside_set': 4}
+167/200 valid                        sec  60.4 tally {'valid': 163, 'label_outside_set': 4}
+168/200 valid                        sec  51.2 tally {'valid': 164, 'label_outside_set': 4}
+169/200 valid                        sec  50.1 tally {'valid': 165, 'label_outside_set': 4}
+170/200 label_outside_set            sec  56.2 tally {'valid': 165, 'label_outside_set': 5}
+171/200 valid                        sec  53.8 tally {'valid': 166, 'label_outside_set': 5}
+172/200 valid                        sec  58.1 tally {'valid': 167, 'label_outside_set': 5}
+173/200 valid                        sec  51.1 tally {'valid': 168, 'label_outside_set': 5}
+174/200 valid                        sec  40.2 tally {'valid': 169, 'label_outside_set': 5}
+175/200 valid                        sec  30.6 tally {'valid': 170, 'label_outside_set': 5}
+176/200 valid                        sec  36.4 tally {'valid': 171, 'label_outside_set': 5}
+177/200 valid                        sec  32.7 tally {'valid': 172, 'label_outside_set': 5}
+178/200 valid                        sec  25.9 tally {'valid': 173, 'label_outside_set': 5}
+179/200 valid                        sec  45.8 tally {'valid': 174, 'label_outside_set': 5}
+180/200 valid                        sec  53.6 tally {'valid': 175, 'label_outside_set': 5}
+181/200 valid                        sec  76.6 tally {'valid': 176, 'label_outside_set': 5}
+182/200 valid                        sec  72.3 tally {'valid': 177, 'label_outside_set': 5}
+183/200 valid                        sec  62.1 tally {'valid': 178, 'label_outside_set': 5}
+184/200 valid                        sec  58.2 tally {'valid': 179, 'label_outside_set': 5}
+185/200 valid                        sec  51.6 tally {'valid': 180, 'label_outside_set': 5}
+186/200 valid                        sec  54.2 tally {'valid': 181, 'label_outside_set': 5}
+187/200 valid                        sec  60.1 tally {'valid': 182, 'label_outside_set': 5}
+188/200 valid                        sec  50.5 tally {'valid': 183, 'label_outside_set': 5}
+189/200 valid                        sec  57.1 tally {'valid': 184, 'label_outside_set': 5}
+190/200 valid                        sec  52.2 tally {'valid': 185, 'label_outside_set': 5}
+191/200 valid                        sec  49.5 tally {'valid': 186, 'label_outside_set': 5}
+192/200 valid                        sec  36.0 tally {'valid': 187, 'label_outside_set': 5}
+193/200 valid                        sec  36.4 tally {'valid': 188, 'label_outside_set': 5}
+194/200 valid                        sec  34.4 tally {'valid': 189, 'label_outside_set': 5}
+195/200 valid                        sec  34.4 tally {'valid': 190, 'label_outside_set': 5}
+196/200 valid                        sec  34.2 tally {'valid': 191, 'label_outside_set': 5}
+197/200 valid                        sec  41.8 tally {'valid': 192, 'label_outside_set': 5}
+198/200 valid                        sec  43.3 tally {'valid': 193, 'label_outside_set': 5}
+199/200 valid                        sec  42.0 tally {'valid': 194, 'label_outside_set': 5}
+200/200 valid                        sec  52.9 tally {'valid': 195, 'label_outside_set': 5}
