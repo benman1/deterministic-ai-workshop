@@ -1,0 +1,30 @@
+seed 0: 100 gold only acc 0.360 ECE 0.206; 400 gold (reference) acc 0.652
+seed 0 thr0.9     round 1: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.360 F1 0.298 ECE 0.206
+seed 0 thr0.9     round 2: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.360 F1 0.298 ECE 0.206
+seed 0 thr0.9     round 3: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.360 F1 0.298 ECE 0.206
+seed 0 conformal  round 1: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.360 F1 0.298 ECE 0.206
+seed 0 conformal  round 2: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.360 F1 0.298 ECE 0.206
+seed 0 conformal  round 3: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.360 F1 0.298 ECE 0.206
+seed 0 two_views  round 1: accepted     6 of 9603, pseudo-label error among accepted 0.000, test acc 0.351 F1 0.293 ECE 0.191
+seed 0 two_views  round 2: accepted    22 of 9603, pseudo-label error among accepted 0.273, test acc 0.340 F1 0.284 ECE 0.171
+seed 0 two_views  round 3: accepted    69 of 9603, pseudo-label error among accepted 0.304, test acc 0.329 F1 0.278 ECE 0.163
+seed 1: 100 gold only acc 0.365 ECE 0.215; 400 gold (reference) acc 0.715
+seed 1 thr0.9     round 1: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.365 F1 0.272 ECE 0.215
+seed 1 thr0.9     round 2: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.365 F1 0.272 ECE 0.215
+seed 1 thr0.9     round 3: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.365 F1 0.272 ECE 0.215
+seed 1 conformal  round 1: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.365 F1 0.272 ECE 0.215
+seed 1 conformal  round 2: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.365 F1 0.272 ECE 0.215
+seed 1 conformal  round 3: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.365 F1 0.272 ECE 0.215
+seed 1 two_views  round 1: accepted     1 of 9603, pseudo-label error among accepted 0.000, test acc 0.361 F1 0.267 ECE 0.210
+seed 1 two_views  round 2: accepted     8 of 9603, pseudo-label error among accepted 0.000, test acc 0.360 F1 0.267 ECE 0.204
+seed 1 two_views  round 3: accepted    46 of 9603, pseudo-label error among accepted 0.152, test acc 0.355 F1 0.266 ECE 0.212
+seed 2: 100 gold only acc 0.340 ECE 0.196; 400 gold (reference) acc 0.732
+seed 2 thr0.9     round 1: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.340 F1 0.264 ECE 0.196
+seed 2 thr0.9     round 2: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.340 F1 0.264 ECE 0.196
+seed 2 thr0.9     round 3: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.340 F1 0.264 ECE 0.196
+seed 2 conformal  round 1: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.340 F1 0.264 ECE 0.196
+seed 2 conformal  round 2: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.340 F1 0.264 ECE 0.196
+seed 2 conformal  round 3: accepted     0 of 9603, pseudo-label error among accepted nan, test acc 0.340 F1 0.264 ECE 0.196
+seed 2 two_views  round 1: accepted     5 of 9603, pseudo-label error among accepted 0.000, test acc 0.336 F1 0.261 ECE 0.189
+seed 2 two_views  round 2: accepted    20 of 9603, pseudo-label error among accepted 0.000, test acc 0.329 F1 0.255 ECE 0.176
+seed 2 two_views  round 3: accepted    51 of 9603, pseudo-label error among accepted 0.000, test acc 0.322 F1 0.249 ECE 0.164
