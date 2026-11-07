@@ -14,7 +14,7 @@ models=collections.Counter(json.loads(l)["model"] for l in open(R+"meridian_scor
 ref={"meridian":{"Qwen":sc("qwen3_1.7b_judge_meridian118.jsonl"),"MiniCheck":sc("meridian_scores.jsonl","minicheck")},
      "vitaminc":{"Qwen":sc("qwen3_1.7b_judge_300.jsonl"),"MiniCheck":sc("scores_300.jsonl","minicheck")}}
 done={}
-for l in open("/Users/ben/Downloads/twil_outputs.jsonl"):
+for l in open("twil_outputs.jsonl"):
     d=json.loads(l); done[(d["set"],d["pair"],d["side"])]=d
 out={}
 for name in("meridian","vitaminc"):
