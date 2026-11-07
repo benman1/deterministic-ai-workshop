@@ -1,0 +1,65 @@
+[{"stream_name":"stderr","time":7.400750918,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.4008392,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.400854987,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.400859271,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.975211603,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.975259851,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.975265624,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.975269508,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":25.926237728,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":34.389576245,"data":"torch 2.11.0+cu130 | device: Tesla T4 | 16 GB\n"}
+,{"stream_name":"stdout","time":38.124681697,"data":"preflight | python 3.13.16 | torch 2.11.0+cu130 | transformers 4.57.6 | GPU: Tesla T4, 16 GB\n"}
+,{"stream_name":"stdout","time":39.581613075,"data":"118 Meridian pairs, 300 VitaminC pairs, 836 claims to judge\n"}
+,{"stream_name":"stderr","time":61.952356989,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":61.952405537,"data":"I0000 00:00:1794060976.605504      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":62.1558604,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":62.155905308,"data":"I0000 00:00:1794060976.605504      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":62.155927617,"data":"\n"}
+,{"stream_name":"stderr","time":62.155933022,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":62.155938691,"data":"I0000 00:00:1794060976.605504      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":231.703023284,"data":"webAI-Official/TwIL-8B 4-bit NF4 loaded in 188s | memory 2.3 GB\n"}
+,{"stream_name":"stdout","time":231.757949597,"data":"parser self-test passed; example prompt:\n"}
+,{"stream_name":"stdout","time":231.757970023,"data":"\u003c|im_start|\u003esystem\n"}
+,{"stream_name":"stdout","time":231.75797623,"data":"\u003c|im_end|\u003e\n"}
+,{"stream_name":"stdout","time":231.757980744,"data":"\u003c|im_start|\u003euser\n"}
+,{"stream_name":"stdout","time":231.757985552,"data":"Evidence: Meridian Economy fares include one checked bag of up to 23 kg.\n"}
+,{"stream_name":"stdout","time":231.757990553,"data":"\n"}
+,{"stream_name":"stdout","time":231.757998051,"data":"Claim: A checked bag on a Meridian Economy fare can weigh up to 23 kg.\n"}
+,{"stream_name":"stdout","time":231.758002951,"data":"\n"}
+,{"stream_name":"stdout","time":231.758007962,"data":"Is the claim supported by the evidence? Think it through, then answer with one word, Yes or No.\u003c|im_end|\u003e\n"}
+,{"stream_name":"stdout","time":231.758013289,"data":"\u003c|im_start|\u003eassistant\n"}
+,{"stream_name":"stdout","time":231.758034526,"data":"\u003cthink\u003e\n"}
+,{"stream_name":"stdout","time":231.758038274,"data":"\n"}
+,{"stream_name":"stdout","time":1398.986013517,"data":"meridian  pair   0 S  truth Yes  verdict None   4096 tokens  cut True  145.9 s\n"}
+,{"stream_name":"stdout","time":1398.986073741,"data":"meridian  pair   0 R  truth No   verdict No      563 tokens  cut False  145.9 s\n"}
+,{"stream_name":"stdout","time":1398.986083629,"data":"meridian  pair   1 S  truth Yes  verdict No     1072 tokens  cut False  145.9 s\n"}
+,{"stream_name":"stdout","time":1398.986087134,"data":"meridian  pair   1 R  truth No   verdict No     1007 tokens  cut False  145.9 s\n"}
+,{"stream_name":"stdout","time":1398.986090236,"data":"meridian  pair   2 S  truth Yes  verdict Yes    2360 tokens  cut False  145.9 s\n"}
+,{"stream_name":"stdout","time":1398.986093246,"data":"meridian  pair   2 R  truth No   verdict None   4096 tokens  cut True  145.9 s\n"}
+,{"stream_name":"stdout","time":1398.986096303,"data":"meridian  pair   3 S  truth Yes  verdict None   4096 tokens  cut True  145.9 s\n"}
+,{"stream_name":"stdout","time":1398.98609932,"data":"meridian  pair   3 R  truth No   verdict No      598 tokens  cut False  145.9 s\n"}
+,{"stream_name":"stdout","time":1398.986102293,"data":"\n"}
+,{"stream_name":"stdout","time":1398.986136272,"data":"probe: 2236 tokens and 145.9 s per claim (batch time / batch size); projected for 836 claims: 33.9 hours\n"}
+,{"stream_name":"stdout","time":1399.183380773,"data":"0 already done, 8 to do\n"}
+,{"stream_name":"stdout","time":2565.223934691,"data":"8/836  last batch 2236 tokens/claim, 145.8 s/claim  | running: right 4/8, cut 3  [1166 s]\n"}
+,{"stream_name":"stdout","time":2565.267140098,"data":"meridian: 8 claims judged (4 full pairs)\n"}
+,{"stream_name":"stdout","time":2565.267166772,"data":"  claim accuracy 4/8 = 0.500 (Wilson 0.215 to 0.785)\n"}
+,{"stream_name":"stdout","time":2565.267177161,"data":"  pairs with both sides right: TwIL 0/4 = 0.000 (Wilson 0.000 to 0.490); Qwen3-1.7B 4/4 = 1.000 (Wilson 0.510 to 1.000); only TwIL 0, only Qwen 4, exact McNemar p = 0.125\n"}
+,{"stream_name":"stdout","time":2565.267181982,"data":"  cost per claim: median 1716 tokens (95th percentile 4096), mean 145.8 s on this machine; cut at 4096 tokens: 3/8; finished without a Yes or No: 0\n"}
+,{"stream_name":"stdout","time":2565.267185318,"data":"\n"}
+,{"stream_name":"stdout","time":2565.267188238,"data":"wrote 17b_twil_results.json (download it from the Colab file browser together with twil_outputs.jsonl)\n"}
+,{"stream_name":"stdout","time":2565.671221367,"data":"wrote 17b_twil_bundle_verbose.zip (0.0 MB). Contents:\n"}
+,{"stream_name":"stdout","time":2565.671247439,"data":"      0.00 MB  run_manifest.json\n"}
+,{"stream_name":"stdout","time":2565.671253399,"data":"      0.08 MB  twil_outputs_verbose.jsonl\n"}
+,{"stream_name":"stdout","time":2565.671258317,"data":"      0.00 MB  17b_twil_results_verbose.json\n"}
+,{"stream_name":"stdout","time":2565.671263031,"data":"      0.08 MB  twil_probe.jsonl\n"}
+,{"stream_name":"stdout","time":2565.671267643,"data":"      0.00 MB  twil_example_prompt.txt\n"}
+,{"stream_name":"stderr","time":2571.92350288,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2571.923535391,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2572.107538966,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2572.107566459,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2572.877685725,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2572.968690567,"data":"[NbConvertApp] Writing 119959 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2575.428729523,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2576.050156207,"data":"[NbConvertApp] Writing 452319 bytes to __results__.html\n"}
+]
