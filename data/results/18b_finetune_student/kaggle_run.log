@@ -1,0 +1,173 @@
+[{"stream_name":"stderr","time":8.555618389,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.555669386,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.555673969,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.555676675,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.167714031,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.167740566,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.167745161,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.167748854,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":26.488399274,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":35.888418331,"data":"torch 2.11.0+cu130 | GPU: Tesla T4\n"}
+,{"stream_name":"stdout","time":39.736761776,"data":"preflight | python 3.13.16 | torch 2.11.0+cu130 | transformers 4.57.6 | GPU: Tesla T4, 16 GB\n"}
+,{"stream_name":"stdout","time":40.317629827,"data":"10003 training, 3080 test, 77 intents\n"}
+,{"stream_name":"stdout","time":40.518376285,"data":"Haiku: right on 1599 of 2000; labels outside the 77 names: 1\n"}
+,{"stream_name":"stdout","time":40.518401033,"data":"Opus: right on 1729 of 2000; labels outside the 77 names: 0\n"}
+,{"stream_name":"stderr","time":62.603829808,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":62.603872358,"data":"I0000 00:00:1794041011.720048      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":62.810064928,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":62.810090718,"data":"I0000 00:00:1794041011.720048      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":62.81011415,"data":"\n"}
+,{"stream_name":"stderr","time":62.810118846,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":62.810123472,"data":"I0000 00:00:1794041011.720048      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":67.703505856,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":67.703543765,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":67.703549924,"data":"\n"}
+,{"stream_name":"stderr","time":67.703554422,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":67.703559752,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":68.672311685,"data":"/tmp/ipykernel_23/4067674954.py:27: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":68.672360914,"data":"  scaler = torch.cuda.amp.GradScaler(enabled=(dev == \"cuda\"))\n"}
+,{"stream_name":"stderr","time":68.672367082,"data":"\n"}
+,{"stream_name":"stderr","time":68.672382646,"data":"/tmp/ipykernel_23/4067674954.py:27: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stderr","time":68.672385918,"data":"  scaler = torch.cuda.amp.GradScaler(enabled=(dev == \"cuda\"))\n"}
+,{"stream_name":"stdout","time":82.33764454,"data":"N=  500 human  seed 0: accuracy 0.421  ECE 0.374   [   36 s]\n"}
+,{"stream_name":"stderr","time":82.4409943,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":82.441028082,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":82.441031968,"data":"\n"}
+,{"stream_name":"stderr","time":82.441034481,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":82.441037265,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":94.288300105,"data":"N=  500 Haiku  seed 0: accuracy 0.426  ECE 0.370   [   48 s]\n"}
+,{"stream_name":"stderr","time":94.397266721,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":94.397328455,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":94.397336061,"data":"\n"}
+,{"stream_name":"stderr","time":94.397341452,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":94.39734726,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":106.390322939,"data":"N=  500 Opus   seed 0: accuracy 0.435  ECE 0.384   [   60 s]\n"}
+,{"stream_name":"stderr","time":106.497815114,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":106.497861412,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":106.497870201,"data":"\n"}
+,{"stream_name":"stderr","time":106.497875651,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":106.497881813,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":118.449681556,"data":"N=  500 human  seed 1: accuracy 0.433  ECE 0.387   [   73 s]\n"}
+,{"stream_name":"stderr","time":118.557622528,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":118.55765682,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":118.557662423,"data":"\n"}
+,{"stream_name":"stderr","time":118.557666579,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":118.557671329,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":130.53215963,"data":"N=  500 Haiku  seed 1: accuracy 0.385  ECE 0.329   [   85 s]\n"}
+,{"stream_name":"stderr","time":130.638302766,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":130.638341774,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":130.63834621,"data":"\n"}
+,{"stream_name":"stderr","time":130.638349371,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":130.638352928,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":142.771431829,"data":"N=  500 Opus   seed 1: accuracy 0.419  ECE 0.370   [   97 s]\n"}
+,{"stream_name":"stderr","time":142.880763836,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":142.880797706,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":142.880803836,"data":"\n"}
+,{"stream_name":"stderr","time":142.880808244,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":142.880815296,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":155.069858871,"data":"N=  500 human  seed 2: accuracy 0.449  ECE 0.402   [  109 s]\n"}
+,{"stream_name":"stderr","time":155.170720161,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":155.1707531,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":155.170760424,"data":"\n"}
+,{"stream_name":"stderr","time":155.17076556,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":155.170772591,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":167.357803632,"data":"N=  500 Haiku  seed 2: accuracy 0.375  ECE 0.321   [  121 s]\n"}
+,{"stream_name":"stderr","time":167.476794091,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":167.476821806,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":167.476834014,"data":"\n"}
+,{"stream_name":"stderr","time":167.476838579,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":167.476843193,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":179.531223646,"data":"N=  500 Opus   seed 2: accuracy 0.459  ECE 0.410   [  134 s]\n"}
+,{"stream_name":"stderr","time":179.635640342,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":179.635675629,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":179.635680874,"data":"\n"}
+,{"stream_name":"stderr","time":179.635683839,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":179.635687836,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":218.51257316,"data":"N= 2000 human  seed 0: accuracy 0.855  ECE 0.373   [  173 s]\n"}
+,{"stream_name":"stderr","time":218.617715373,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":218.617745517,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":218.617751287,"data":"\n"}
+,{"stream_name":"stderr","time":218.617755912,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":218.617761039,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":257.489612043,"data":"N= 2000 Haiku  seed 0: accuracy 0.744  ECE 0.243   [  212 s]\n"}
+,{"stream_name":"stderr","time":257.594221349,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":257.59424899,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":257.594252848,"data":"\n"}
+,{"stream_name":"stderr","time":257.594255777,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":257.594283541,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":296.286949481,"data":"N= 2000 Opus   seed 0: accuracy 0.804  ECE 0.294   [  250 s]\n"}
+,{"stream_name":"stderr","time":296.387930841,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":296.387962991,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":296.387970729,"data":"\n"}
+,{"stream_name":"stderr","time":296.387978806,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":296.387982286,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":335.064421072,"data":"N= 2000 human  seed 1: accuracy 0.845  ECE 0.365   [  289 s]\n"}
+,{"stream_name":"stderr","time":335.165520593,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":335.165553366,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":335.165559636,"data":"\n"}
+,{"stream_name":"stderr","time":335.165564766,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":335.165570515,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":373.948579751,"data":"N= 2000 Haiku  seed 1: accuracy 0.742  ECE 0.238   [  328 s]\n"}
+,{"stream_name":"stderr","time":374.057184778,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":374.05723844,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":374.05724539,"data":"\n"}
+,{"stream_name":"stderr","time":374.057250432,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":374.05725653,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":412.889422369,"data":"N= 2000 Opus   seed 1: accuracy 0.796  ECE 0.276   [  367 s]\n"}
+,{"stream_name":"stderr","time":412.994549969,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":412.99461408,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":412.994636473,"data":"\n"}
+,{"stream_name":"stderr","time":412.994640464,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":412.99464439,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":451.663353373,"data":"N= 2000 human  seed 2: accuracy 0.840  ECE 0.361   [  406 s]\n"}
+,{"stream_name":"stderr","time":451.768574939,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":451.768643648,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":451.768649551,"data":"\n"}
+,{"stream_name":"stderr","time":451.768655649,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":451.76866378,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":490.329418154,"data":"N= 2000 Haiku  seed 2: accuracy 0.741  ECE 0.248   [  444 s]\n"}
+,{"stream_name":"stderr","time":490.432573867,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":490.432614352,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":490.432621045,"data":"\n"}
+,{"stream_name":"stderr","time":490.432625706,"data":"Some weights of BertForSequenceClassification were not initialized from the model checkpoint at BAAI/bge-small-en-v1.5 and are newly initialized: ['classifier.bias', 'classifier.weight']\n"}
+,{"stream_name":"stderr","time":490.432631216,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":528.963768126,"data":"N= 2000 Opus   seed 2: accuracy 0.793  ECE 0.285   [  483 s]\n"}
+,{"stream_name":"stdout","time":529.080253279,"data":"    N  labels   accuracy (mean of seeds)           Wilson    ECE  frozen (nb 18)\n"}
+,{"stream_name":"stdout","time":529.080299701,"data":"  500   human          0.435 (+/- 0.012)   0.425 to 0.445  0.388             nan\n"}
+,{"stream_name":"stdout","time":529.080306963,"data":"  500   Haiku          0.395 (+/- 0.022)   0.385 to 0.405  0.340             nan\n"}
+,{"stream_name":"stdout","time":529.080312629,"data":"  500    Opus          0.438 (+/- 0.017)   0.428 to 0.448  0.388             nan\n"}
+,{"stream_name":"stdout","time":529.080317943,"data":" 2000   human          0.847 (+/- 0.006)   0.839 to 0.854  0.366           0.895\n"}
+,{"stream_name":"stdout","time":529.080323481,"data":" 2000   Haiku          0.742 (+/- 0.001)   0.733 to 0.751  0.243           0.801\n"}
+,{"stream_name":"stdout","time":529.080328339,"data":" 2000    Opus          0.798 (+/- 0.005)   0.789 to 0.806  0.285           0.846\n"}
+,{"stream_name":"stdout","time":529.080333794,"data":"\n"}
+,{"stream_name":"stdout","time":529.080339595,"data":"N=  500 seed 0: human vs Haiku: only human right  300, only Haiku right  315, exact McNemar p = 0.57\n"}
+,{"stream_name":"stdout","time":529.080356828,"data":"N=  500 seed 1: human vs Haiku: only human right  431, only Haiku right  281, exact McNemar p = 2.1e-08\n"}
+,{"stream_name":"stdout","time":529.080361138,"data":"N=  500 seed 2: human vs Haiku: only human right  428, only Haiku right  200, exact McNemar p = 5.2e-20\n"}
+,{"stream_name":"stdout","time":529.080366689,"data":"N=  500 seed 0: Opus  vs Haiku: only Opus right  169, only Haiku right  142, exact McNemar p = 0.14\n"}
+,{"stream_name":"stdout","time":529.080372272,"data":"N=  500 seed 1: Opus  vs Haiku: only Opus right  317, only Haiku right  212, exact McNemar p = 5.7e-06\n"}
+,{"stream_name":"stdout","time":529.080376106,"data":"N=  500 seed 2: Opus  vs Haiku: only Opus right  349, only Haiku right   90, exact McNemar p = 4.6e-37\n"}
+,{"stream_name":"stdout","time":529.080380077,"data":"N=  500 seed 0: human vs Opus : only human right  209, only Opus right  251, exact McNemar p = 0.056\n"}
+,{"stream_name":"stdout","time":529.080384593,"data":"N=  500 seed 1: human vs Opus : only human right  268, only Opus right  223, exact McNemar p = 0.047\n"}
+,{"stream_name":"stdout","time":529.080388921,"data":"N=  500 seed 2: human vs Opus : only human right  196, only Opus right  227, exact McNemar p = 0.14\n"}
+,{"stream_name":"stdout","time":529.080393425,"data":"N= 2000 seed 0: human vs Haiku: only human right  448, only Haiku right  106, exact McNemar p = 5.4e-51\n"}
+,{"stream_name":"stdout","time":529.080405275,"data":"N= 2000 seed 1: human vs Haiku: only human right  435, only Haiku right  118, exact McNemar p = 1.2e-43\n"}
+,{"stream_name":"stdout","time":529.080409497,"data":"N= 2000 seed 2: human vs Haiku: only human right  439, only Haiku right  135, exact McNemar p = 1.7e-38\n"}
+,{"stream_name":"stdout","time":529.080413312,"data":"N= 2000 seed 0: Opus  vs Haiku: only Opus right  293, only Haiku right  108, exact McNemar p = 7.9e-21\n"}
+,{"stream_name":"stdout","time":529.080417714,"data":"N= 2000 seed 1: Opus  vs Haiku: only Opus right  284, only Haiku right  116, exact McNemar p = 2.3e-17\n"}
+,{"stream_name":"stdout","time":529.080423791,"data":"N= 2000 seed 2: Opus  vs Haiku: only Opus right  264, only Haiku right  106, exact McNemar p = 1.1e-16\n"}
+,{"stream_name":"stdout","time":529.08042739,"data":"N= 2000 seed 0: human vs Opus : only human right  236, only Opus right   79, exact McNemar p = 2.6e-19\n"}
+,{"stream_name":"stdout","time":529.080430925,"data":"N= 2000 seed 1: human vs Opus : only human right  262, only Opus right  113, exact McNemar p = 9.5e-15\n"}
+,{"stream_name":"stdout","time":529.080434558,"data":"N= 2000 seed 2: human vs Opus : only human right  234, only Opus right   88, exact McNemar p = 1.9e-16\n"}
+,{"stream_name":"stdout","time":530.579376475,"data":"wrote 18b_finetune_bundle.zip (15.3 MB). Contents:\n"}
+,{"stream_name":"stdout","time":530.57940263,"data":"      0.00 MB  run_manifest.json\n"}
+,{"stream_name":"stdout","time":530.5794075,"data":"      0.00 MB  18b_finetune_results.json\n"}
+,{"stream_name":"stdout","time":530.579412295,"data":"     15.34 MB  18b_probabilities.npz\n"}
+,{"stream_name":"stderr","time":536.19042116,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":536.190463978,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":536.358681743,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":536.358723889,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":537.144654089,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":537.242498219,"data":"[NbConvertApp] Writing 110926 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":539.746389898,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":540.341867857,"data":"[NbConvertApp] Writing 430633 bytes to __results__.html\n"}
+]
