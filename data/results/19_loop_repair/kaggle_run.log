@@ -1,0 +1,154 @@
+[{"stream_name":"stderr","time":6.56797895,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.568017759,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.568021948,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.568024544,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.108623108,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.108657984,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.108663596,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.108667722,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":23.854726055,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":31.724040312,"data":"torch 2.11.0+cu130 | GPU: Tesla T4\n"}
+,{"stream_name":"stdout","time":34.889880627,"data":"preflight | python 3.13.16 | torch 2.11.0+cu130 | transformers 4.57.6 | GPU: Tesla T4, 16 GB\n"}
+,{"stream_name":"stdout","time":38.175567085,"data":"100 MATH-500 problems, 300 GSM8K problems; by level: {5: 27, 2: 18, 4: 29, 3: 21, 1: 5}\n"}
+,{"stream_name":"stdout","time":38.199133946,"data":"grader self-test passed\n"}
+,{"stream_name":"stderr","time":58.585612365,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":58.585642819,"data":"I0000 00:00:1794008547.094538      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":58.791265341,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":58.791287841,"data":"I0000 00:00:1794008547.094538      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":58.791293217,"data":"\n"}
+,{"stream_name":"stderr","time":58.791297634,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":58.791302848,"data":"I0000 00:00:1794008547.094538      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":77.254206437,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":77.254237582,"data":"\n"}
+,{"stream_name":"stderr","time":77.254248677,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":421.535346262,"data":"  thinking on, greedy                batch 1/4  cut so far 12  [  344 s]\n"}
+,{"stream_name":"stdout","time":773.80583037,"data":"  thinking on, greedy                batch 2/4  cut so far 30  [  697 s]\n"}
+,{"stream_name":"stdout","time":1154.723537126,"data":"  thinking on, greedy                batch 3/4  cut so far 51  [ 1077 s]\n"}
+,{"stream_name":"stdout","time":1249.866538722,"data":"  thinking on, greedy                batch 4/4  cut so far 55  [ 1173 s]\n"}
+,{"stream_name":"stdout","time":1250.054361607,"data":"thinking on, greedy                      accuracy  41/100 (0.41, 0.32 to 0.51)   cut  55/100 (0.55, 0.45 to 0.64)   loop  23/100\n"}
+,{"stream_name":"stdout","time":1608.103253958,"data":"  thinking on, card settings         batch 1/4  cut so far 13  [  358 s]\n"}
+,{"stream_name":"stdout","time":1974.253630641,"data":"  thinking on, card settings         batch 2/4  cut so far 32  [  724 s]\n"}
+,{"stream_name":"stdout","time":2370.029864916,"data":"  thinking on, card settings         batch 3/4  cut so far 53  [ 1120 s]\n"}
+,{"stream_name":"stdout","time":2467.744363919,"data":"  thinking on, card settings         batch 4/4  cut so far 56  [ 1218 s]\n"}
+,{"stream_name":"stdout","time":2467.93111286,"data":"thinking on, card settings               accuracy  37/100 (0.37, 0.28 to 0.47)   cut  56/100 (0.56, 0.46 to 0.65)   loop  12/100\n"}
+,{"stream_name":"stdout","time":2811.938998269,"data":"  thinking on, greedy + rep. penalty batch 1/4  cut so far 17  [  344 s]\n"}
+,{"stream_name":"stdout","time":3164.114272358,"data":"  thinking on, greedy + rep. penalty batch 2/4  cut so far 35  [  696 s]\n"}
+,{"stream_name":"stdout","time":3546.200886067,"data":"  thinking on, greedy + rep. penalty batch 3/4  cut so far 57  [ 1078 s]\n"}
+,{"stream_name":"stdout","time":3640.878852551,"data":"  thinking on, greedy + rep. penalty batch 4/4  cut so far 61  [ 1173 s]\n"}
+,{"stream_name":"stdout","time":3641.067614401,"data":"thinking on, greedy + rep. penalty       accuracy  36/100 (0.36, 0.27 to 0.46)   cut  61/100 (0.61, 0.51 to 0.70)   loop   8/100\n"}
+,{"stream_name":"stdout","time":3781.196410903,"data":"  thinking off, card settings        batch 1/4  cut so far 0  [  140 s]\n"}
+,{"stream_name":"stdout","time":4148.531338365,"data":"  thinking off, card settings        batch 2/4  cut so far 4  [  508 s]\n"}
+,{"stream_name":"stdout","time":4545.380486119,"data":"  thinking off, card settings        batch 3/4  cut so far 5  [  905 s]\n"}
+,{"stream_name":"stdout","time":4587.491429039,"data":"  thinking off, card settings        batch 4/4  cut so far 5  [  947 s]\n"}
+,{"stream_name":"stdout","time":4587.492344051,"data":"thinking off, card settings              accuracy  50/100 (0.50, 0.40 to 0.60)   cut   5/100 (0.05, 0.02 to 0.11)   loop  16/100\n"}
+,{"stream_name":"stdout","time":4587.51690957,"data":"thinking on, card settings           vs thinking on, greedy                 : only first right   4, only second right   8, exact McNemar p = 0.39\n"}
+,{"stream_name":"stdout","time":4587.516927369,"data":"thinking on, greedy + rep. penalty   vs thinking on, greedy                 : only first right   6, only second right  11, exact McNemar p = 0.33\n"}
+,{"stream_name":"stdout","time":4587.516933153,"data":"thinking off, card settings          vs thinking on, greedy                 : only first right  18, only second right   9, exact McNemar p = 0.12\n"}
+,{"stream_name":"stdout","time":4587.516937834,"data":"thinking off, card settings          vs thinking on, card settings          : only first right  19, only second right   6, exact McNemar p = 0.015\n"}
+,{"stream_name":"stdout","time":4944.085536837,"data":"  GSM8K traces                       batch 1/10  cut so far 6  [  357 s]\n"}
+,{"stream_name":"stdout","time":5301.681697924,"data":"  GSM8K traces                       batch 2/10  cut so far 9  [  714 s]\n"}
+,{"stream_name":"stdout","time":5661.175731917,"data":"  GSM8K traces                       batch 3/10  cut so far 15  [ 1074 s]\n"}
+,{"stream_name":"stdout","time":6023.365077091,"data":"  GSM8K traces                       batch 4/10  cut so far 19  [ 1436 s]\n"}
+,{"stream_name":"stdout","time":6387.073228063,"data":"  GSM8K traces                       batch 5/10  cut so far 24  [ 1800 s]\n"}
+,{"stream_name":"stdout","time":6750.436651966,"data":"  GSM8K traces                       batch 6/10  cut so far 32  [ 2163 s]\n"}
+,{"stream_name":"stdout","time":7118.137030638,"data":"  GSM8K traces                       batch 7/10  cut so far 42  [ 2531 s]\n"}
+,{"stream_name":"stdout","time":7486.21747872,"data":"  GSM8K traces                       batch 8/10  cut so far 50  [ 2899 s]\n"}
+,{"stream_name":"stdout","time":7861.043162231,"data":"  GSM8K traces                       batch 9/10  cut so far 65  [ 3273 s]\n"}
+,{"stream_name":"stdout","time":8031.298265822,"data":"  GSM8K traces                       batch 10/10  cut so far 70  [ 3444 s]\n"}
+,{"stream_name":"stdout","time":8031.299135032,"data":"kept 210 of 300 traces (finished, correct, no loop); mean length 1038 tokens\n"}
+,{"stream_name":"stdout","time":8034.428633196,"data":"trainable params: 2,293,760 || all params: 598,343,680 || trainable%: 0.3834\n"}
+,{"stream_name":"stderr","time":8034.850599548,"data":"`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.\n"}
+,{"stream_name":"stderr","time":8034.850631688,"data":"\n"}
+,{"stream_name":"stderr","time":8034.850637465,"data":"`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.\n"}
+,{"stream_name":"stdout","time":8040.295597524,"data":"  epoch 1 step 1/54 loss 0.225  [   5 s]\n"}
+,{"stream_name":"stdout","time":8045.566906866,"data":"  epoch 1 step 2/54 loss 0.188  [  11 s]\n"}
+,{"stream_name":"stdout","time":8051.413474419,"data":"  epoch 1 step 3/54 loss 0.214  [  17 s]\n"}
+,{"stream_name":"stdout","time":8056.607656258,"data":"  epoch 1 step 4/54 loss 0.204  [  22 s]\n"}
+,{"stream_name":"stdout","time":8062.113323547,"data":"  epoch 1 step 5/54 loss 0.182  [  27 s]\n"}
+,{"stream_name":"stdout","time":8068.804446725,"data":"  epoch 1 step 6/54 loss 0.208  [  34 s]\n"}
+,{"stream_name":"stdout","time":8074.855822613,"data":"  epoch 1 step 7/54 loss 0.201  [  40 s]\n"}
+,{"stream_name":"stdout","time":8080.094823907,"data":"  epoch 1 step 8/54 loss 0.240  [  45 s]\n"}
+,{"stream_name":"stdout","time":8085.468673353,"data":"  epoch 1 step 9/54 loss 0.193  [  51 s]\n"}
+,{"stream_name":"stdout","time":8091.463631802,"data":"  epoch 1 step 10/54 loss 0.217  [  57 s]\n"}
+,{"stream_name":"stdout","time":8098.11538069,"data":"  epoch 1 step 11/54 loss 0.209  [  63 s]\n"}
+,{"stream_name":"stdout","time":8103.58188023,"data":"  epoch 1 step 12/54 loss 0.185  [  69 s]\n"}
+,{"stream_name":"stdout","time":8109.407863377,"data":"  epoch 1 step 13/54 loss 0.190  [  75 s]\n"}
+,{"stream_name":"stdout","time":8115.451582437,"data":"  epoch 1 step 14/54 loss 0.183  [  81 s]\n"}
+,{"stream_name":"stdout","time":8120.79350454,"data":"  epoch 1 step 15/54 loss 0.213  [  86 s]\n"}
+,{"stream_name":"stdout","time":8124.96041354,"data":"  epoch 1 step 16/54 loss 0.212  [  90 s]\n"}
+,{"stream_name":"stdout","time":8131.181663376,"data":"  epoch 1 step 17/54 loss 0.204  [  96 s]\n"}
+,{"stream_name":"stdout","time":8136.872831798,"data":"  epoch 1 step 18/54 loss 0.189  [ 102 s]\n"}
+,{"stream_name":"stdout","time":8143.165012372,"data":"  epoch 1 step 19/54 loss 0.210  [ 108 s]\n"}
+,{"stream_name":"stdout","time":8148.372965303,"data":"  epoch 1 step 20/54 loss 0.189  [ 114 s]\n"}
+,{"stream_name":"stdout","time":8153.28569035,"data":"  epoch 1 step 21/54 loss 0.177  [ 118 s]\n"}
+,{"stream_name":"stdout","time":8158.727461719,"data":"  epoch 1 step 22/54 loss 0.180  [ 124 s]\n"}
+,{"stream_name":"stdout","time":8163.053010695,"data":"  epoch 1 step 23/54 loss 0.191  [ 128 s]\n"}
+,{"stream_name":"stdout","time":8168.087889791,"data":"  epoch 1 step 24/54 loss 0.191  [ 133 s]\n"}
+,{"stream_name":"stdout","time":8173.616460611,"data":"  epoch 1 step 25/54 loss 0.186  [ 139 s]\n"}
+,{"stream_name":"stdout","time":8179.375800907,"data":"  epoch 1 step 26/54 loss 0.182  [ 145 s]\n"}
+,{"stream_name":"stdout","time":8180.969804897,"data":"  epoch 1 step 27/54 loss 0.191  [ 146 s]\n"}
+,{"stream_name":"stdout","time":8186.541894448,"data":"  epoch 2 step 28/54 loss 0.165  [ 152 s]\n"}
+,{"stream_name":"stdout","time":8192.043471141,"data":"  epoch 2 step 29/54 loss 0.164  [ 157 s]\n"}
+,{"stream_name":"stdout","time":8199.039850918,"data":"  epoch 2 step 30/54 loss 0.200  [ 164 s]\n"}
+,{"stream_name":"stdout","time":8204.027519688,"data":"  epoch 2 step 31/54 loss 0.148  [ 169 s]\n"}
+,{"stream_name":"stdout","time":8208.688333876,"data":"  epoch 2 step 32/54 loss 0.178  [ 174 s]\n"}
+,{"stream_name":"stdout","time":8214.523816137,"data":"  epoch 2 step 33/54 loss 0.169  [ 180 s]\n"}
+,{"stream_name":"stdout","time":8221.429109413,"data":"  epoch 2 step 34/54 loss 0.197  [ 187 s]\n"}
+,{"stream_name":"stdout","time":8227.314609798,"data":"  epoch 2 step 35/54 loss 0.174  [ 192 s]\n"}
+,{"stream_name":"stdout","time":8233.809617966,"data":"  epoch 2 step 36/54 loss 0.186  [ 199 s]\n"}
+,{"stream_name":"stdout","time":8240.495000703,"data":"  epoch 2 step 37/54 loss 0.205  [ 206 s]\n"}
+,{"stream_name":"stdout","time":8247.262664253,"data":"  epoch 2 step 38/54 loss 0.169  [ 212 s]\n"}
+,{"stream_name":"stdout","time":8253.364245051,"data":"  epoch 2 step 39/54 loss 0.158  [ 219 s]\n"}
+,{"stream_name":"stdout","time":8258.231680101,"data":"  epoch 2 step 40/54 loss 0.158  [ 223 s]\n"}
+,{"stream_name":"stdout","time":8263.346112125,"data":"  epoch 2 step 41/54 loss 0.177  [ 228 s]\n"}
+,{"stream_name":"stdout","time":8268.38901482,"data":"  epoch 2 step 42/54 loss 0.162  [ 234 s]\n"}
+,{"stream_name":"stdout","time":8272.761722184,"data":"  epoch 2 step 43/54 loss 0.178  [ 238 s]\n"}
+,{"stream_name":"stdout","time":8278.033519519,"data":"  epoch 2 step 44/54 loss 0.161  [ 243 s]\n"}
+,{"stream_name":"stdout","time":8283.314077416,"data":"  epoch 2 step 45/54 loss 0.194  [ 248 s]\n"}
+,{"stream_name":"stdout","time":8289.687915436,"data":"  epoch 2 step 46/54 loss 0.239  [ 255 s]\n"}
+,{"stream_name":"stdout","time":8294.773504353,"data":"  epoch 2 step 47/54 loss 0.184  [ 260 s]\n"}
+,{"stream_name":"stdout","time":8299.806315729,"data":"  epoch 2 step 48/54 loss 0.162  [ 265 s]\n"}
+,{"stream_name":"stdout","time":8304.970291714,"data":"  epoch 2 step 49/54 loss 0.189  [ 270 s]\n"}
+,{"stream_name":"stdout","time":8310.069655298,"data":"  epoch 2 step 50/54 loss 0.162  [ 275 s]\n"}
+,{"stream_name":"stdout","time":8315.013645966,"data":"  epoch 2 step 51/54 loss 0.162  [ 280 s]\n"}
+,{"stream_name":"stdout","time":8320.107849453,"data":"  epoch 2 step 52/54 loss 0.171  [ 285 s]\n"}
+,{"stream_name":"stdout","time":8325.003933496,"data":"  epoch 2 step 53/54 loss 0.187  [ 290 s]\n"}
+,{"stream_name":"stdout","time":8326.507024285,"data":"  epoch 2 step 54/54 loss 0.207  [ 292 s]\n"}
+,{"stream_name":"stdout","time":8671.520024711,"data":"  LoRA thinking on, greedy           batch 1/4  cut so far 11  [  344 s]\n"}
+,{"stream_name":"stdout","time":9023.796394505,"data":"  LoRA thinking on, greedy           batch 2/4  cut so far 30  [  696 s]\n"}
+,{"stream_name":"stdout","time":9405.730670262,"data":"  LoRA thinking on, greedy           batch 3/4  cut so far 51  [ 1078 s]\n"}
+,{"stream_name":"stdout","time":9501.750932087,"data":"  LoRA thinking on, greedy           batch 4/4  cut so far 55  [ 1174 s]\n"}
+,{"stream_name":"stdout","time":9501.93650186,"data":"LoRA: thinking on, greedy                accuracy  40/100 (0.40, 0.31 to 0.50)   cut  55/100 (0.55, 0.45 to 0.64)   loop  20/100\n"}
+,{"stream_name":"stdout","time":9860.135204723,"data":"  LoRA thinking on, card settings    batch 1/4  cut so far 13  [  358 s]\n"}
+,{"stream_name":"stdout","time":10227.381348569,"data":"  LoRA thinking on, card settings    batch 2/4  cut so far 31  [  726 s]\n"}
+,{"stream_name":"stdout","time":10623.762832837,"data":"  LoRA thinking on, card settings    batch 3/4  cut so far 52  [ 1122 s]\n"}
+,{"stream_name":"stdout","time":10721.953939794,"data":"  LoRA thinking on, card settings    batch 4/4  cut so far 56  [ 1220 s]\n"}
+,{"stream_name":"stdout","time":10722.140226748,"data":"LoRA: thinking on, card settings         accuracy  41/100 (0.41, 0.32 to 0.51)   cut  56/100 (0.56, 0.46 to 0.65)   loop  22/100\n"}
+,{"stream_name":"stdout","time":10815.410585206,"data":"  LoRA thinking off, card settings   batch 1/4  cut so far 0  [   93 s]\n"}
+,{"stream_name":"stdout","time":11182.97047827,"data":"  LoRA thinking off, card settings   batch 2/4  cut so far 2  [  461 s]\n"}
+,{"stream_name":"stdout","time":11579.981421216,"data":"  LoRA thinking off, card settings   batch 3/4  cut so far 6  [  858 s]\n"}
+,{"stream_name":"stdout","time":11625.24558554,"data":"  LoRA thinking off, card settings   batch 4/4  cut so far 6  [  903 s]\n"}
+,{"stream_name":"stdout","time":11625.246507736,"data":"LoRA: thinking off, card settings        accuracy  55/100 (0.55, 0.45 to 0.64)   cut   6/100 (0.06, 0.03 to 0.12)   loop  17/100\n"}
+,{"stream_name":"stdout","time":11625.246521817,"data":"\n"}
+,{"stream_name":"stdout","time":11625.246527324,"data":"thinking on, greedy           : LoRA only right   7, base only right   8, exact McNemar p = 1\n"}
+,{"stream_name":"stdout","time":11625.246532279,"data":"thinking on, card settings    : LoRA only right  11, base only right   7, exact McNemar p = 0.48\n"}
+,{"stream_name":"stdout","time":11625.246537306,"data":"thinking off, card settings   : LoRA only right  16, base only right  11, exact McNemar p = 0.44\n"}
+,{"stream_name":"stdout","time":11626.724721767,"data":"wrote 19_loop_repair_bundle.zip (9.6 MB). Contents:\n"}
+,{"stream_name":"stdout","time":11626.724748306,"data":"      0.00 MB  run_manifest.json\n"}
+,{"stream_name":"stdout","time":11626.724754205,"data":"      0.00 MB  19_loop_repair_results.json\n"}
+,{"stream_name":"stdout","time":11626.724758926,"data":"      0.00 MB  19_loop_repair_part1.json\n"}
+,{"stream_name":"stdout","time":11626.724763787,"data":"      1.94 MB  19_generations_base.json\n"}
+,{"stream_name":"stdout","time":11626.724767987,"data":"      1.32 MB  19_generations_lora.json\n"}
+,{"stream_name":"stdout","time":11626.724772209,"data":"      1.41 MB  19_gsm8k_traces.json\n"}
+,{"stream_name":"stdout","time":11626.724776612,"data":"      9.20 MB  lora_adapter/adapter_model.safetensors\n"}
+,{"stream_name":"stdout","time":11626.724781156,"data":"      0.00 MB  lora_adapter/adapter_config.json\n"}
+,{"stream_name":"stdout","time":11626.724785606,"data":"      0.01 MB  lora_adapter/README.md\n"}
+,{"stream_name":"stderr","time":11632.105784185,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":11632.105804722,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":11632.24979019,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":11632.249811893,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":11633.001821798,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":11633.105804468,"data":"[NbConvertApp] Writing 154381 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":11635.511524378,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":11636.085664121,"data":"[NbConvertApp] Writing 487842 bytes to __results__.html\n"}
+]
