@@ -1,0 +1,275 @@
+[{"stream_name":"stdout","time":34.991921045,"data":"torch 2.11.0+cu130 transformers 5.20.2 GPU Tesla T4\n"}
+,{"stream_name":"stderr","time":38.219368986,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":40.508487962,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":44.112793116,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2553.29it/s]\n"}
+,{"stream_name":"stderr","time":44.135234159,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":44.135270657,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":44.135282125,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":44.135286609,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":44.13529023,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":44.135293984,"data":"\n"}
+,{"stream_name":"stderr","time":44.135297147,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":44.135300451,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":83.944356469,"data":"GRID lr 0.0001 epochs 12: validation accuracy 0.867  ECE 0.366  mean confidence 0.501  [   44 s]\n"}
+,{"stream_name":"stderr","time":84.302148282,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":84.418255685,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2686.98it/s]\n"}
+,{"stream_name":"stderr","time":84.423848582,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":84.423882033,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":84.423885901,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":84.423888882,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":84.423891763,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":84.423894605,"data":"\n"}
+,{"stream_name":"stderr","time":84.423897461,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":84.423900308,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":176.074425623,"data":"GRID lr 0.0001 epochs 30: validation accuracy 0.892  ECE 0.031  mean confidence 0.899  [  136 s]\n"}
+,{"stream_name":"stderr","time":176.34604601,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":176.462939048,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2548.76it/s]\n"}
+,{"stream_name":"stderr","time":176.469214266,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":176.469241449,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":176.469248434,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":176.469253491,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":176.46928731,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":176.469290484,"data":"\n"}
+,{"stream_name":"stderr","time":176.469304684,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":176.46930705,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":213.713081435,"data":"GRID lr 0.0003 epochs 12: validation accuracy 0.878  ECE 0.050  mean confidence 0.887  [  174 s]\n"}
+,{"stream_name":"stderr","time":214.000339316,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":214.115563417,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2640.35it/s]\n"}
+,{"stream_name":"stderr","time":214.121113796,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":214.121135481,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":214.121141332,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":214.121146344,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":214.121151069,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":214.121155811,"data":"\n"}
+,{"stream_name":"stderr","time":214.121169381,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":214.121173796,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":305.136061952,"data":"GRID lr 0.0003 epochs 30: validation accuracy 0.870  ECE 0.080  mean confidence 0.949  [  265 s]\n"}
+,{"stream_name":"stderr","time":305.426541123,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":305.538431696,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2677.72it/s]\n"}
+,{"stream_name":"stderr","time":305.544009598,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":305.544030236,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":305.544036002,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":305.544049988,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":305.544054376,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":305.544058768,"data":"\n"}
+,{"stream_name":"stderr","time":305.544062893,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":305.544067329,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":342.752268249,"data":"GRID lr 0.001 epochs 12: validation accuracy 0.019  ECE 0.002  mean confidence 0.021  [  303 s]\n"}
+,{"stream_name":"stderr","time":343.051770172,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":343.163447603,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2674.06it/s]\n"}
+,{"stream_name":"stderr","time":343.169150006,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":343.169175496,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":343.169179107,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":343.169181527,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":343.169183912,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":343.169186178,"data":"\n"}
+,{"stream_name":"stderr","time":343.16918839,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":343.169190718,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":434.474925717,"data":"GRID lr 0.001 epochs 30: validation accuracy 0.017  ECE 0.004  mean confidence 0.021  [  394 s]\n"}
+,{"stream_name":"stdout","time":434.474981684,"data":"CHOSEN by validation accuracy: lr 0.0001, epochs 30\n"}
+,{"stream_name":"stderr","time":434.773063558,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":434.887252421,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2682.52it/s]\n"}
+,{"stream_name":"stderr","time":434.89272097,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":434.892741655,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":434.892746921,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":434.892762648,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":434.892767059,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":434.892771452,"data":"\n"}
+,{"stream_name":"stderr","time":434.89277604,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":434.892780588,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":460.472472467,"data":"FINAL N=  500 human  seed 0: accuracy 0.620  ECE 0.358  mean confidence 0.263  [  420 s]\n"}
+,{"stream_name":"stderr","time":460.763785807,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":460.8800055,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2575.15it/s]\n"}
+,{"stream_name":"stderr","time":460.886252242,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":460.886279955,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":460.886286898,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":460.886292164,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":460.886297098,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":460.88630238,"data":"\n"}
+,{"stream_name":"stderr","time":460.886307295,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":460.886317406,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":486.447649191,"data":"FINAL N=  500 Haiku  seed 0: accuracy 0.574  ECE 0.281  mean confidence 0.298  [  446 s]\n"}
+,{"stream_name":"stderr","time":486.718985022,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":486.83101094,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2678.65it/s]\n"}
+,{"stream_name":"stderr","time":486.836421688,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":486.836437937,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":486.836442186,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":486.836450717,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":486.836453888,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":486.836456277,"data":"\n"}
+,{"stream_name":"stderr","time":486.83645871,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":486.836461,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":512.213747489,"data":"FINAL N=  500 Opus   seed 0: accuracy 0.589  ECE 0.316  mean confidence 0.279  [  472 s]\n"}
+,{"stream_name":"stderr","time":512.493475066,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":512.602217715,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2787.28it/s]\n"}
+,{"stream_name":"stderr","time":512.607755417,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":512.607790642,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":512.60779582,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":512.607799788,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":512.607803359,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":512.607806738,"data":"\n"}
+,{"stream_name":"stderr","time":512.607810069,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":512.607813569,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":538.09978847,"data":"FINAL N=  500 human  seed 1: accuracy 0.606  ECE 0.353  mean confidence 0.253  [  498 s]\n"}
+,{"stream_name":"stderr","time":538.407366396,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":538.520254257,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2704.61it/s]\n"}
+,{"stream_name":"stderr","time":538.525838827,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":538.525867342,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":538.525873342,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":538.525878243,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":538.525882537,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":538.525886647,"data":"\n"}
+,{"stream_name":"stderr","time":538.525908007,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":538.525910923,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":564.004664422,"data":"FINAL N=  500 Haiku  seed 1: accuracy 0.555  ECE 0.295  mean confidence 0.282  [  524 s]\n"}
+,{"stream_name":"stderr","time":564.298952103,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":564.410589572,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2723.09it/s]\n"}
+,{"stream_name":"stderr","time":564.416645494,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":564.416664819,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":564.416668772,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":564.416672869,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":564.416677042,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":564.416681427,"data":"\n"}
+,{"stream_name":"stderr","time":564.416685297,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":564.416689076,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":589.939294598,"data":"FINAL N=  500 Opus   seed 1: accuracy 0.591  ECE 0.331  mean confidence 0.267  [  550 s]\n"}
+,{"stream_name":"stderr","time":590.212548162,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":590.325339151,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2693.49it/s]\n"}
+,{"stream_name":"stderr","time":590.330874434,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":590.330895775,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":590.33091197,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":590.33091648,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":590.330921402,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":590.33092588,"data":"\n"}
+,{"stream_name":"stderr","time":590.330930055,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":590.330934397,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":615.882241754,"data":"FINAL N=  500 human  seed 2: accuracy 0.602  ECE 0.337  mean confidence 0.264  [  576 s]\n"}
+,{"stream_name":"stderr","time":616.14701511,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":616.261417878,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2650.11it/s]\n"}
+,{"stream_name":"stderr","time":616.266904625,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":616.26692492,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":616.26694999,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":616.266952593,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":616.266955238,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":616.2669576,"data":"\n"}
+,{"stream_name":"stderr","time":616.266959765,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":616.266962071,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":641.910248535,"data":"FINAL N=  500 Haiku  seed 2: accuracy 0.566  ECE 0.275  mean confidence 0.292  [  602 s]\n"}
+,{"stream_name":"stderr","time":642.21572133,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":642.32660475,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2716.46it/s]\n"}
+,{"stream_name":"stderr","time":642.332342484,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":642.332391555,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":642.332397845,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":642.332403635,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":642.332408178,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":642.332412949,"data":"\n"}
+,{"stream_name":"stderr","time":642.33241711,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":642.33242152,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":667.765912209,"data":"FINAL N=  500 Opus   seed 2: accuracy 0.598  ECE 0.317  mean confidence 0.284  [  628 s]\n"}
+,{"stream_name":"stderr","time":668.11416989,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":668.228106185,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2636.64it/s]\n"}
+,{"stream_name":"stderr","time":668.233777709,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":668.233797993,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":668.233804193,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":668.233809203,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":668.23381353,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":668.23381806,"data":"\n"}
+,{"stream_name":"stderr","time":668.233822176,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":668.233831231,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":761.000437215,"data":"FINAL N= 2000 human  seed 0: accuracy 0.891  ECE 0.019  mean confidence 0.896  [  721 s]\n"}
+,{"stream_name":"stderr","time":761.29328426,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":761.406948307,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2626.19it/s]\n"}
+,{"stream_name":"stderr","time":761.413002587,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":761.413024698,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":761.413029471,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":761.413033267,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":761.413036536,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":761.413039774,"data":"\n"}
+,{"stream_name":"stderr","time":761.413042955,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":761.413048222,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":854.619143092,"data":"FINAL N= 2000 Haiku  seed 0: accuracy 0.802  ECE 0.101  mean confidence 0.902  [  815 s]\n"}
+,{"stream_name":"stderr","time":854.906551431,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":855.017651057,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2710.70it/s]\n"}
+,{"stream_name":"stderr","time":855.023216035,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":855.023239005,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":855.02325002,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":855.023254769,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":855.02325874,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":855.023263214,"data":"\n"}
+,{"stream_name":"stderr","time":855.023267334,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":855.023277163,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":947.690437675,"data":"FINAL N= 2000 Opus   seed 0: accuracy 0.846  ECE 0.064  mean confidence 0.908  [  908 s]\n"}
+,{"stream_name":"stderr","time":947.958829186,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":948.071657972,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2663.25it/s]\n"}
+,{"stream_name":"stderr","time":948.077159589,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":948.077180037,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":948.07718515,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":948.077189598,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":948.077194136,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":948.077198434,"data":"\n"}
+,{"stream_name":"stderr","time":948.077202708,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":948.077206957,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":1042.162088841,"data":"FINAL N= 2000 human  seed 1: accuracy 0.890  ECE 0.026  mean confidence 0.895  [ 1002 s]\n"}
+,{"stream_name":"stderr","time":1042.500617705,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":1042.61680401,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2555.29it/s]\n"}
+,{"stream_name":"stderr","time":1042.623327418,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":1042.623346268,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":1042.623350836,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":1042.623354494,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":1042.623359459,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":1042.623376279,"data":"\n"}
+,{"stream_name":"stderr","time":1042.623382849,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":1042.623387427,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":1135.609206965,"data":"FINAL N= 2000 Haiku  seed 1: accuracy 0.797  ECE 0.103  mean confidence 0.900  [ 1096 s]\n"}
+,{"stream_name":"stderr","time":1135.892962049,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":1136.006257927,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2678.22it/s]\n"}
+,{"stream_name":"stderr","time":1136.011816123,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":1136.011857262,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":1136.011863963,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":1136.011868896,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":1136.011873401,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":1136.011878285,"data":"\n"}
+,{"stream_name":"stderr","time":1136.011882526,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":1136.011886835,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":1228.710437162,"data":"FINAL N= 2000 Opus   seed 1: accuracy 0.841  ECE 0.069  mean confidence 0.910  [ 1189 s]\n"}
+,{"stream_name":"stderr","time":1229.008187213,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":1229.120949344,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2724.87it/s]\n"}
+,{"stream_name":"stderr","time":1229.126432272,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":1229.126458344,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":1229.1264625,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":1229.12646544,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":1229.126468403,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":1229.126471249,"data":"\n"}
+,{"stream_name":"stderr","time":1229.126474111,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":1229.126487476,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":1321.258805056,"data":"FINAL N= 2000 human  seed 2: accuracy 0.895  ECE 0.025  mean confidence 0.895  [ 1281 s]\n"}
+,{"stream_name":"stderr","time":1321.555785474,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":1321.669025702,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2704.68it/s]\n"}
+,{"stream_name":"stderr","time":1321.674666554,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":1321.674689426,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":1321.674695476,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":1321.674700751,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":1321.6747053,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":1321.674709648,"data":"\n"}
+,{"stream_name":"stderr","time":1321.674714409,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":1321.674718535,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":1413.934317055,"data":"FINAL N= 2000 Haiku  seed 2: accuracy 0.801  ECE 0.101  mean confidence 0.902  [ 1374 s]\n"}
+,{"stream_name":"stderr","time":1414.234983153,"data":"[transformers] You passed `num_labels=77` which is incompatible to the `id2label` map of length `1`.\n"}
+,{"stream_name":"stderr","time":1414.345997585,"data":"\rLoading weights:   0%|          | 0/199 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 199/199 [00:00\u003c00:00, 2687.61it/s]\n"}
+,{"stream_name":"stderr","time":1414.351448227,"data":"[transformers] \u001b[1mBertForSequenceClassification LOAD REPORT\u001b[0m from: BAAI/bge-small-en-v1.5\n"}
+,{"stream_name":"stderr","time":1414.351467707,"data":"Key               | Status  | \n"}
+,{"stream_name":"stderr","time":1414.351472929,"data":"------------------+---------+-\n"}
+,{"stream_name":"stderr","time":1414.351477415,"data":"classifier.bias   | MISSING | \n"}
+,{"stream_name":"stderr","time":1414.351481913,"data":"classifier.weight | MISSING | \n"}
+,{"stream_name":"stderr","time":1414.351486642,"data":"\n"}
+,{"stream_name":"stderr","time":1414.35149098,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":1414.351495343,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":1506.680722309,"data":"FINAL N= 2000 Opus   seed 2: accuracy 0.849  ECE 0.063  mean confidence 0.908  [ 1467 s]\n"}
+,{"stream_name":"stdout","time":1506.681630278,"data":"done\n"}
+,{"stream_name":"stderr","time":1513.043522384,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1513.043575334,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1513.306158321,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1513.306185555,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1514.095903,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1515.128689588,"data":"[NbConvertApp] Writing 314016 bytes to __results__.html\n"}
+]

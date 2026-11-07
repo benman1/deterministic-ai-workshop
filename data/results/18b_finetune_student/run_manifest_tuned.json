@@ -1,0 +1,10 @@
+{
+ "finished": "2026-11-07T14:19:34+00:00",
+ "torch": "2.11.0+cu130",
+ "transformers": "5.20.2",
+ "gpu": "Tesla T4",
+ "model": "BAAI/bge-small-en-v1.5",
+ "encoder_revision": null,
+ "grid": "lr {1e-4,3e-4,1e-3} x epochs {12,30}",
+ "selection": "validation accuracy, 1000 training messages outside the 2000 sample, seed 0, human labels"
+}
