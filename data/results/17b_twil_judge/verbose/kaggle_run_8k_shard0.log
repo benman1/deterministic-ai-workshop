@@ -1,0 +1,85 @@
+[{"stream_name":"stderr","time":6.302096081,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.302140506,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.302145155,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.302147684,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.871193131,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.871219114,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.871222374,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.871224884,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":24.641218847,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":31.150792589,"data":"torch 2.11.0+cu130 | device: Tesla T4 | 16 GB\n"}
+,{"stream_name":"stdout","time":34.665621179,"data":"preflight | python 3.13.16 | torch 2.11.0+cu130 | transformers 4.57.6 | GPU: Tesla T4, 16 GB\n"}
+,{"stream_name":"stdout","time":38.289377953,"data":"118 Meridian pairs, 300 VitaminC pairs, 836 claims to judge\n"}
+,{"stream_name":"stderr","time":61.910206106,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":61.910246421,"data":"I0000 00:00:1794125896.173025      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":62.111924577,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":62.111944875,"data":"I0000 00:00:1794125896.173025      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":62.111950751,"data":"\n"}
+,{"stream_name":"stderr","time":62.111955375,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":62.111960622,"data":"I0000 00:00:1794125896.173025      23 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":237.797858264,"data":"webAI-Official/TwIL-8B 4-bit NF4 loaded in 196s | memory 2.3 GB\n"}
+,{"stream_name":"stdout","time":237.861243707,"data":"parser self-test passed; example prompt:\n"}
+,{"stream_name":"stdout","time":237.861278965,"data":"\u003c|im_start|\u003esystem\n"}
+,{"stream_name":"stdout","time":237.861285492,"data":"\u003c|im_end|\u003e\n"}
+,{"stream_name":"stdout","time":237.861290349,"data":"\u003c|im_start|\u003euser\n"}
+,{"stream_name":"stdout","time":237.861295117,"data":"Evidence: Meridian Economy fares include one checked bag of up to 23 kg.\n"}
+,{"stream_name":"stdout","time":237.861299783,"data":"\n"}
+,{"stream_name":"stdout","time":237.861303822,"data":"Claim: A checked bag on a Meridian Economy fare can weigh up to 23 kg.\n"}
+,{"stream_name":"stdout","time":237.861308372,"data":"\n"}
+,{"stream_name":"stdout","time":237.86131284,"data":"Is the claim supported by the evidence? Think it through, then answer with one word, Yes or No.\u003c|im_end|\u003e\n"}
+,{"stream_name":"stdout","time":237.861317904,"data":"\u003c|im_start|\u003eassistant\n"}
+,{"stream_name":"stdout","time":237.861334182,"data":"\u003cthink\u003e\n"}
+,{"stream_name":"stdout","time":237.861338064,"data":"\n"}
+,{"stream_name":"stdout","time":3937.982657074,"data":"meridian  pair   0 S  truth Yes  verdict None   8192 tokens  cut True  462.5 s\n"}
+,{"stream_name":"stdout","time":3937.982710767,"data":"meridian  pair   0 R  truth No   verdict No      563 tokens  cut False  462.5 s\n"}
+,{"stream_name":"stdout","time":3937.982715515,"data":"meridian  pair   1 S  truth Yes  verdict No     1072 tokens  cut False  462.5 s\n"}
+,{"stream_name":"stdout","time":3937.982719528,"data":"meridian  pair   1 R  truth No   verdict No     1007 tokens  cut False  462.5 s\n"}
+,{"stream_name":"stdout","time":3937.98272333,"data":"meridian  pair   2 S  truth Yes  verdict Yes    2360 tokens  cut False  462.5 s\n"}
+,{"stream_name":"stdout","time":3937.98272679,"data":"meridian  pair   2 R  truth No   verdict None   8192 tokens  cut True  462.5 s\n"}
+,{"stream_name":"stdout","time":3937.982730436,"data":"meridian  pair   3 S  truth Yes  verdict None   8192 tokens  cut True  462.5 s\n"}
+,{"stream_name":"stdout","time":3937.982733919,"data":"meridian  pair   3 R  truth No   verdict No      598 tokens  cut False  462.5 s\n"}
+,{"stream_name":"stdout","time":3937.982737401,"data":"\n"}
+,{"stream_name":"stdout","time":3937.982741101,"data":"probe: 3772 tokens and 462.5 s per claim (batch time / batch size); projected for 836 claims: 107.4 hours\n"}
+,{"stream_name":"stdout","time":3938.179256021,"data":"0 already done, 31 to do\n"}
+,{"stream_name":"stdout","time":6199.840638345,"data":"4/836  last batch 2884 tokens/claim, 565.4 s/claim  | running: right 3/4, cut 1  [2262 s]\n"}
+,{"stream_name":"stdout","time":6881.13947857,"data":"8/836  last batch 1592 tokens/claim, 170.3 s/claim  | running: right 6/8, cut 1  [2943 s]\n"}
+,{"stream_name":"stdout","time":9151.66997173,"data":"12/836  last batch 5080 tokens/claim, 567.6 s/claim  | running: right 8/12, cut 3  [5214 s]\n"}
+,{"stream_name":"stdout","time":11425.635558382,"data":"16/836  last batch 3070 tokens/claim, 568.5 s/claim  | running: right 11/16, cut 4  [7488 s]\n"}
+,{"stream_name":"stdout","time":13687.103340903,"data":"20/836  last batch 2968 tokens/claim, 565.3 s/claim  | running: right 13/20, cut 5  [9749 s]\n"}
+,{"stream_name":"stdout","time":13985.248469365,"data":"24/836  last batch 1068 tokens/claim, 74.5 s/claim  | running: right 17/24, cut 5  [10047 s]\n"}
+,{"stream_name":"stdout","time":16252.199342744,"data":"28/836  last batch 4334 tokens/claim, 566.7 s/claim  | running: right 19/28, cut 7  [12314 s]\n"}
+,{"stream_name":"stdout","time":18119.111699129,"data":"31/836  last batch 5765 tokens/claim, 622.3 s/claim  | running: right 20/31, cut 9  [14181 s]\n"}
+,{"stream_name":"stdout","time":18119.141290967,"data":"meridian: 31 claims judged (0 full pairs)\n"}
+,{"stream_name":"stdout","time":18119.141329109,"data":"  claim accuracy 20/31 = 0.645 (Wilson 0.469 to 0.789)\n"}
+,{"stream_name":"stderr","time":18123.126876128,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":18123.127617186,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":18123.127637331,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":18123.127644692,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":18123.127649471,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":18123.127664755,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":18123.127668025,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":18123.127671539,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":18123.127675371,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":18123.12767864,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":18123.127681933,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":18123.127685607,"data":"Exception encountered at \"In [7]\":\n"}
+,{"stream_name":"stderr","time":18123.127688898,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":18123.127692647,"data":"ZeroDivisionError                         Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":18123.12769606,"data":"/tmp/ipykernel_23/2201290188.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":18123.127700109,"data":"     22     print(f\"{name}: {len(recs)} claims judged ({len(full)} full pairs)\")\n"}
+,{"stream_name":"stderr","time":18123.127704048,"data":"     23     print(f\"  claim accuracy {k}/{n} = {k/n:.3f} (Wilson {lo:.3f} to {hi:.3f})\")\n"}
+,{"stream_name":"stderr","time":18123.127708064,"data":"---\u003e 24     print(f\"  pairs with both sides right: TwIL {kb}/{nb} = {kb/nb:.3f} (Wilson {blo:.3f} to {bhi:.3f}); Qwen3-1.7B {kq}/{nb} = {kq/nb:.3f} (Wilson {qlo:.3f} to {qhi:.3f}); only TwIL {a}, only Qwen {b}, exact McNemar p = {pv:.3g}\")\n"}
+,{"stream_name":"stderr","time":18123.127712314,"data":"     25     print(f\"  cost per claim: median {np.median(toks):.0f} tokens (95th percentile {np.percentile(toks,95):.0f}), mean {secs.mean():.1f} s on this machine; cut at {MAX_NEW} tokens: {cut}/{len(recs)}; finished without a Yes or No: {unp}\")\n"}
+,{"stream_name":"stderr","time":18123.127716532,"data":"     26     summary[\"sets\"][name] = dict(claims=len(recs), pairs=nb, claim_correct=k, claim_wilson=[lo, hi], pairs_both_right=kb, pairs_both_wilson=[blo, bhi],\n"}
+,{"stream_name":"stderr","time":18123.127720514,"data":"\n"}
+,{"stream_name":"stderr","time":18123.127723969,"data":"ZeroDivisionError: division by zero\n"}
+,{"stream_name":"stderr","time":18123.127727399,"data":"\n"}
+,{"stream_name":"stderr","time":18125.385252848,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":18125.38527873,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":18125.548511894,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":18125.548533614,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":18126.30780616,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":18126.398425661,"data":"[NbConvertApp] Writing 119408 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":18128.896654414,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":18129.516883899,"data":"[NbConvertApp] Writing 459126 bytes to __results__.html\n"}
+]
